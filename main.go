@@ -15,4 +15,6 @@ func main() {
 	if err != nil {
 		fmt.Println(err)
 	}
+
+	ipf.Decompress("D:\\test")
 }

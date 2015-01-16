@@ -2,10 +2,12 @@ package ipf
 
 import (
 	"bytes"
-	"compress/zlib"
+	"compress/flate"
 	"encoding/binary"
 	"fmt"
+	"io"
 	"os"
+	"path/filepath"
 )
 
 type IPF struct {
@@ -60,6 +62,15 @@ func (ipf *IPF) Parse() error {
 	return nil
 }
 
+func (ipf *IPF) Decompress(basePath string) {
+	for _, file := range ipf.Files {
+		err := file.Decompress(basePath, ipf)
+		if err != nil {
+			fmt.Println(err)
+		}
+	}
+}
+
 func (ipf *IPF) GetFileList() error {
 	files := []fileMeta{}
 
@@ -111,7 +122,6 @@ func (ipf *IPF) GetFileList() error {
 			return err
 		}
 
-		fmt.Printf("%+v", m)
 		files = append(files, m)
 	}
 
@@ -137,14 +147,36 @@ func getMeta(file *os.File) (meta, error) {
 		return m, err
 	}
 
-	fmt.Printf("%+v\n", m)
-
 	return m, nil
 }
 
-func (ipf *IPF) Decompress(folderPath string) error {
-
-	for _, f := range ipf.Files {
-
+func (fm *fileMeta) Decompress(rootPath string, ipf *IPF) error {
+	buf := make([]byte, fm.Zsize)
+	_, err := ipf.File.ReadAt(buf, int64(fm.Offset))
+	if err != nil {
+		return err
 	}
+
+	b := bytes.NewReader(buf)
+	r := flate.NewReader(b)
+
+	path := filepath.Dir(fm.Name)
+	fileName := filepath.Base(fm.Name)
+
+	fullPath := filepath.Join(rootPath, filepath.Base(ipf.File.Name()), path)
+	os.MkdirAll(fullPath, 0777)
+
+	fullerPath := filepath.Join(fullPath, fileName)
+	out, err := os.Create(fullerPath)
+
+	fmt.Println(fullerPath)
+
+	if err != nil {
+		return err
+	}
+
+	io.Copy(out, r)
+	r.Close()
+
+	return nil
 }
