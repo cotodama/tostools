@@ -1,0 +1,5 @@
+tostools
+*.db
+*.tmp
+*.swp
+*.sublime-project
