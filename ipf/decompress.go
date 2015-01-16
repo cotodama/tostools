@@ -62,13 +62,17 @@ func (ipf *IPF) Parse() error {
 	return nil
 }
 
-func (ipf *IPF) Decompress(basePath string) {
+func (ipf *IPF) Decompress(basePath string) error {
+	var err error
+
 	for _, file := range ipf.Files {
-		err := file.Decompress(basePath, ipf)
+		err = file.Decompress(basePath, ipf)
 		if err != nil {
-			fmt.Println(err)
+			return err
 		}
 	}
+
+	return nil
 }
 
 func (ipf *IPF) GetFileList() error {
