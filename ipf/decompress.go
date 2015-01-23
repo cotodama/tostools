@@ -155,6 +155,8 @@ func getMeta(file *os.File) (meta, error) {
 }
 
 func (fm *fileMeta) Decompress(rootPath string, ipf *IPF) error {
+	ignore := []string{".mp3", ".fsb", ".jpg", ".JPG"}
+
 	buf := make([]byte, fm.Zsize)
 	_, err := ipf.File.ReadAt(buf, int64(fm.Offset))
 	if err != nil {
@@ -165,6 +167,7 @@ func (fm *fileMeta) Decompress(rootPath string, ipf *IPF) error {
 	r := flate.NewReader(b)
 
 	path := filepath.Dir(fm.Name)
+	ext := filepath.Ext(fm.Name)
 	fileName := filepath.Base(fm.Name)
 
 	fullPath := filepath.Join(rootPath, filepath.Base(ipf.File.Name()), path)
@@ -179,7 +182,13 @@ func (fm *fileMeta) Decompress(rootPath string, ipf *IPF) error {
 		return err
 	}
 
-	io.Copy(out, r)
+	for _, e := range ignore {
+		if ext == e {
+			io.Copy(out, b)
+		} else {
+			io.Copy(out, r)
+		}
+	}
 	r.Close()
 
 	return nil
