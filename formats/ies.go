@@ -23,6 +23,8 @@ type headerSection struct {
 	eofOffset  uint32
 	resPtr     uint32
 	dataPtr    uint32
+	numRows    uint16
+	numFormats uint16
 }
 
 type dataSection struct {
@@ -62,23 +64,30 @@ func (ies *IES) parseHeader() error {
 	dataOffsetBuf := make([]byte, 4)
 	resOffsetBuf := make([]byte, 4)
 	eofOffsetBuf := make([]byte, 4)
+	numRowsBuf := make([]byte, 2)
+	numFormatsBuf := make([]byte, 2)
 
 	_, err := ies.File.ReadAt(nameBuf, 0)
 	if err != nil {
 		return err
 	}
 
-	_, err = ies.File.ReadAt(dataOffsetBuf, 132)
+	_, err = ies.File.ReadAt(dataOffsetBuf, 0x84)
 	if err != nil {
 		return err
 	}
 
-	_, err = ies.File.ReadAt(resOffsetBuf, 136)
+	_, err = ies.File.ReadAt(resOffsetBuf, 0x88)
 	if err != nil {
 		return err
 	}
 
-	_, err = ies.File.ReadAt(eofOffsetBuf, 140)
+	_, err = ies.File.ReadAt(eofOffsetBuf, 0x8C)
+	if err != nil {
+		return err
+	}
+
+	_, err = ies.File.ReadAt(numRowsBuf, 0x92)
 	if err != nil {
 		return err
 	}
@@ -87,11 +96,23 @@ func (ies *IES) parseHeader() error {
 	head.dataOffset = readInt32(dataOffsetBuf)
 	head.resOffset = readInt32(resOffsetBuf)
 	head.eofOffset = readInt32(eofOffsetBuf)
+
 	head.resPtr = head.eofOffset - head.resOffset
 	head.dataPtr = head.resPtr - head.dataOffset
 
-	fmt.Printf("%+v", head)
+	if hasRowsBuf == 0x01 {
+		head.numRows = 0
+		head.numFormats = 0
+	} else {
+		_, err = ies.File.ReadAt(numFormatsBuf, 0x94)
+		if err != nil {
+			return err
+		}
 
+		head.numFormats = numFormatsBuf
+	}
+
+	fmt.Printf("%+v", head)
 	return nil
 }
 

@@ -23,5 +23,6 @@ bgm.ies:
     - dataOffset: 816 
     - resOffset: 10769 
     - eofOffset: 11741 
+    
     - resPtr: 972 
     - dataPtr: 156 
