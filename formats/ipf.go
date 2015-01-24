@@ -1,4 +1,4 @@
-package ipf
+package formats
 
 import (
 	"bytes"
@@ -175,8 +175,6 @@ func (fm *fileMeta) Decompress(rootPath string, ipf *IPF) error {
 
 	fullerPath := filepath.Join(fullPath, fileName)
 	out, err := os.Create(fullerPath)
-
-	fmt.Println(fullerPath)
 
 	if err != nil {
 		return err

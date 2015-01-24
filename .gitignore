@@ -3,3 +3,7 @@ tostools
 *.tmp
 *.swp
 *.sublime-project
+3rdparty/
+*.exe
+*.zip
+*.bat
