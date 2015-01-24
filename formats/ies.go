@@ -96,11 +96,11 @@ func (ies *IES) parseHeader() error {
 	head.dataOffset = readInt32(dataOffsetBuf)
 	head.resOffset = readInt32(resOffsetBuf)
 	head.eofOffset = readInt32(eofOffsetBuf)
-
 	head.resPtr = head.eofOffset - head.resOffset
 	head.dataPtr = head.resPtr - head.dataOffset
+	head.numRows = readInt16(numRowsBuf)
 
-	if hasRowsBuf == 0x01 {
+	if head.numRows == 0x01 {
 		head.numRows = 0
 		head.numFormats = 0
 	} else {
@@ -109,7 +109,8 @@ func (ies *IES) parseHeader() error {
 			return err
 		}
 
-		head.numFormats = numFormatsBuf
+		head.numFormats = readInt16(numFormatsBuf)
+		head.numRows = readInt16(numRowsBuf)
 	}
 
 	fmt.Printf("%+v", head)
@@ -127,6 +128,12 @@ func (ies *IES) parseTableSection() error {
 }
 
 func readInt32(data []byte) (r uint32) {
+	buf := bytes.NewBuffer(data)
+	binary.Read(buf, binary.LittleEndian, &r)
+	return
+}
+
+func readInt16(data []byte) (r uint16) {
 	buf := bytes.NewBuffer(data)
 	binary.Read(buf, binary.LittleEndian, &r)
 	return
