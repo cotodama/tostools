@@ -41,7 +41,13 @@ type node struct {
 	FmtType byte
 }
 
-type row struct{}
+type row struct {
+	Name    string
+	Index   uint16
+	Size    uint16
+	Content string
+}
+
 type nodes []node
 
 func OpenIES(filepath string) (*IES, error) {
@@ -187,7 +193,6 @@ func (ies *IES) parseFormatsSection() error {
 		}
 
 		nodes = append(nodes, n)
-
 	}
 
 	ies.Nodes = nodes
@@ -196,12 +201,31 @@ func (ies *IES) parseFormatsSection() error {
 }
 
 func (ies *IES) parseRows() error {
-	offset := int64(ies.Header.OffsetRows) - 2
+	offset := int64(ies.Header.OffsetRows)
 	ies.File.Seek(offset, 0)
 
 	for i := 0; i < int(ies.DataInfo.Rows); i++ {
 
+		indexBuf := make([]byte, 2)
+		optionalBuf := make([]byte, 2)
+		intPoolBuf := make([]byte, int(ies.DataInfo.ColInt))
+		stringPoolBuf := make([]byte, int(ies.DataInfo.ColString))
+
+		ies.File.Read(indexBuf)
+		ies.File.Read(optionalBuf)
+		ies.File.Read(intPoolBuf)
+		ies.File.Read(stringPoolBuf)
+
+		fmt.Printf("%+v\n%+v\n%+v\n%+v\n\n\n",
+			indexBuf, optionalBuf, intPoolBuf, stringPoolBuf)
 	}
+
+	// rows := make([]row, ies.DataInfo.Rows)
+	// curCol := 0
+
+	// for i := 0; i < int(ies.DataInfo.Rows); i++ {
+
+	// }
 
 	return nil
 }
