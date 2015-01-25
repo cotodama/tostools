@@ -6,6 +6,7 @@ import (
 	"errors"
 	"fmt"
 	"os"
+	"sort"
 	"strconv"
 	_ "strings"
 )
@@ -40,8 +41,14 @@ type node struct {
 	NameOne string
 	NameTwo string
 	FmtType byte
+	Order   uint8
 }
+
 type nodes []node
+
+func (n nodes) Len() int           { return len(n) }
+func (n nodes) Swap(i, j int)      { n[i], n[j] = n[j], n[i] }
+func (n nodes) Less(i, j int) bool { return n[i].Order < n[j].Order }
 
 func OpenIES(filepath string) (*IES, error) {
 	var ies IES
@@ -157,9 +164,10 @@ func (ies *IES) parseFormatsSection() error {
 		NameOne [64]byte
 		NameTwo [64]byte
 		FmtType byte
-		Unknown [6]byte
+		Unknown [5]byte
+		Order   uint8
 	}
-	var nodes []node
+	var nnodes []node
 
 	offset := int64(ies.Header.OffsetColumns)
 
@@ -183,17 +191,20 @@ func (ies *IES) parseFormatsSection() error {
 			NameOne: readXorString(tmp.NameOne[:], ies.Key),
 			NameTwo: readXorString(tmp.NameTwo[:], ies.Key),
 			FmtType: tmp.FmtType,
+			Order:   tmp.Order,
 		}
 
-		nodes = append(nodes, n)
+		nnodes = append(nnodes, n)
 	}
 
-	ies.Nodes = nodes
+	ies.Nodes = nnodes
 
 	return nil
 }
 
 func (ies *IES) parseRows() error {
+	sort.Sort(nodes(ies.Nodes))
+
 	offset := int64(ies.Header.OffsetRows)
 	ies.File.Seek(offset, 0)
 
@@ -225,6 +236,8 @@ func (ies *IES) parseRows() error {
 
 			row[ies.Nodes[j+int(ies.DataInfo.ColInt)].NameOne] = readXorString(strBuf, ies.Key)
 		}
+
+		fmt.Printf("%+v\n", row)
 
 		ies.File.Seek(int64(ies.DataInfo.ColString), 1)
 		ies.Rows = append(ies.Rows, row)
