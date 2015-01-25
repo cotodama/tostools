@@ -15,7 +15,7 @@ type IES struct {
 	Header   headerSection
 	DataInfo dataInfo
 	Nodes    []node
-	Data     []entry
+	Rows     []row
 }
 
 type headerSection struct {
@@ -39,15 +39,9 @@ type node struct {
 	NameOne string
 	NameTwo string
 	FmtType byte
-	Unknown byte
 }
 
-type entry struct {
-	Size  uint16
-	Key   string
-	Value string
-}
-
+type row struct{}
 type nodes []node
 
 func OpenIES(filepath string) (*IES, error) {
@@ -80,7 +74,7 @@ func (ies *IES) Parse() error {
 		return err
 	}
 
-	err = ies.parseTableSection()
+	err = ies.parseRows()
 	if err != nil {
 		return err
 	}
@@ -164,7 +158,7 @@ func (ies *IES) parseFormatsSection() error {
 		NameOne [64]byte
 		NameTwo [64]byte
 		FmtType byte
-		Unknown byte
+		Unknown [6]byte
 	}
 	var nodes []node
 
@@ -190,7 +184,6 @@ func (ies *IES) parseFormatsSection() error {
 			NameOne: readXorString(tmp.NameOne[:], ies.Key),
 			NameTwo: readXorString(tmp.NameTwo[:], ies.Key),
 			FmtType: tmp.FmtType,
-			Unknown: tmp.Unknown,
 		}
 
 		nodes = append(nodes, n)
@@ -202,11 +195,12 @@ func (ies *IES) parseFormatsSection() error {
 	return nil
 }
 
-func (ies *IES) parseTableSection() error {
+func (ies *IES) parseRows() error {
 	offset := int64(ies.Header.OffsetRows) - 2
 	ies.File.Seek(offset, 0)
 
 	for i := 0; i < int(ies.DataInfo.Rows); i++ {
+
 	}
 
 	return nil
