@@ -3,12 +3,13 @@ package formats
 import (
 	"bytes"
 	"encoding/binary"
+	"encoding/csv"
 	"errors"
-	"fmt"
+	_ "fmt"
 	"os"
+	"path/filepath"
 	"sort"
 	"strconv"
-	_ "strings"
 )
 
 type IES struct {
@@ -41,14 +42,18 @@ type node struct {
 	NameOne string
 	NameTwo string
 	FmtType byte
+	Unknown [5]byte
 	Order   uint8
 }
 
 type nodes []node
 
-func (n nodes) Len() int           { return len(n) }
-func (n nodes) Swap(i, j int)      { n[i], n[j] = n[j], n[i] }
-func (n nodes) Less(i, j int) bool { return n[i].Order < n[j].Order }
+func (n nodes) Len() int      { return len(n) }
+func (n nodes) Swap(i, j int) { n[i], n[j] = n[j], n[i] }
+
+func (n nodes) Less(i, j int) bool {
+	return n[i].Order < n[j].Order
+}
 
 func OpenIES(filepath string) (*IES, error) {
 	var ies IES
@@ -89,6 +94,39 @@ func (ies *IES) Parse() error {
 }
 
 func (ies *IES) Decompress(path string) error {
+
+	fileName := filepath.Base(ies.File.Name()) + ".csv"
+
+	filePath := filepath.Join(path)
+	os.MkdirAll(filePath, 0777)
+
+	csvfile, err := os.Create(filepath.Join(filePath, fileName))
+
+	if err != nil {
+		return err
+	}
+
+	defer csvfile.Close()
+
+	writer := csv.NewWriter(csvfile)
+
+	header := make([]string, len(ies.Nodes))
+	for i, head := range ies.Nodes {
+		header[i] = head.NameOne
+	}
+
+	writer.Write(header)
+
+	for _, row := range ies.Rows {
+		r := make([]string, len(ies.Nodes))
+		for j, node := range ies.Nodes {
+			r[j] = row[node.NameOne]
+		}
+
+		writer.Write(r)
+	}
+
+	writer.Flush()
 	return nil
 }
 
@@ -167,7 +205,8 @@ func (ies *IES) parseFormatsSection() error {
 		Unknown [5]byte
 		Order   uint8
 	}
-	var nnodes []node
+	var strNodes []node
+	var intNodes []node
 
 	offset := int64(ies.Header.OffsetColumns)
 
@@ -194,8 +233,19 @@ func (ies *IES) parseFormatsSection() error {
 			Order:   tmp.Order,
 		}
 
-		nnodes = append(nnodes, n)
+		if n.FmtType == 0 {
+			intNodes = append(intNodes, n)
+		} else {
+			strNodes = append(strNodes, n)
+		}
+
 	}
+
+	var nnodes []node
+
+	sort.Sort(nodes(intNodes))
+	sort.Sort(nodes(strNodes))
+	nnodes = append(intNodes, strNodes...)
 
 	ies.Nodes = nnodes
 
@@ -203,7 +253,10 @@ func (ies *IES) parseFormatsSection() error {
 }
 
 func (ies *IES) parseRows() error {
-	sort.Sort(nodes(ies.Nodes))
+	// sort.Sort(nodes(ies.Nodes))
+	// if ies.Nodes[1].NameOne == "ClassID" {
+	// 	ies.Nodes[0], ies.Nodes[1] = ies.Nodes[1], ies.Nodes[0]
+	// }
 
 	offset := int64(ies.Header.OffsetRows)
 	ies.File.Seek(offset, 0)
@@ -236,8 +289,6 @@ func (ies *IES) parseRows() error {
 
 			row[ies.Nodes[j+int(ies.DataInfo.ColInt)].NameOne] = readXorString(strBuf, ies.Key)
 		}
-
-		fmt.Printf("%+v\n", row)
 
 		ies.File.Seek(int64(ies.DataInfo.ColString), 1)
 		ies.Rows = append(ies.Rows, row)
