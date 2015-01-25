@@ -1,0 +1,12 @@
+ClassID,UnlockArgNum,MaxLevel,Price1,Time1,Price2,Time2,Price3,Time3,Price4,Time4,Price5,Time5,Price6,Time6,Price7,Time7,Price8,Time8,Price9,Time9,Price10,Time10,ClassName,UnlockScr,UnlockArgStr,UnlockDesc,ScrCalcPrice
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wugushi11,,,,ABIL_WUGUSHI11_PRICE
+0,0,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wugushi12,UNLOCK_ABIL_CIRCLE,Char3_6,무고사 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wugushi13,UNLOCK_ABIL_CIRCLE,Char3_6,무고사 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wugushi14,,,,ABIL_WUGUSHI14_PRICE
+0,0,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wugushi15,UNLOCK_ABIL_CIRCLE,Char3_6,무고사 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wugushi16,UNLOCK_ABIL_CIRCLE,Char3_6,무고사 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wugushi17,UNLOCK_ABIL_CIRCLE,Char3_6,무고사 2서클 필요,ABIL_WUGUSHI17_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wugushi19,UNLOCK_ABIL_CIRCLE,Char3_6,무고사 3서클 필요,
+0,0,0,0,0,0,0,32768,0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,Wugushi1,,,,
+0,0,0,0,0,0,0,32768,0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,Wugushi4,,,,
+0,0,0,8960,0,8960,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wugushi5,UNLOCK_ABIL_CIRCLE,Char3_6,무고사 2서클 필요,

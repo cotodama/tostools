@@ -1,0 +1,13 @@
+ClassID,UnlockArgNum,MaxLevel,Price1,Time1,Price2,Time2,Price3,Time3,Price4,Time4,Price5,Time5,Price6,Time6,Price7,Time7,Price8,Time8,Price9,Time9,Price10,Time10,ClassName,UnlockScr,UnlockArgStr,UnlockDesc,ScrCalcPrice
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Priest11,,,,ABIL_PRIEST11_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Priest14,UNLOCK_ABIL_CIRCLE,Char4_2,프리스트 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Priest15,UNLOCK_ABIL_CIRCLE,Char4_2,프리스트 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Priest13,,,,ABIL_PRIEST13_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Priest18,UNLOCK_ABIL_CIRCLE,Char4_2,프리스트 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Priest19,UNLOCK_ABIL_CIRCLE,Char4_2,프리스트 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Priest12,UNLOCK_ABIL_CIRCLE,Char4_2,프리스트 2서클 필요,ABIL_PRIEST12_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Priest17,UNLOCK_ABIL_CIRCLE,Char4_2,프리스트 3서클 필요,
+0,0,0,32768,0,32768,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Priest5,,,,
+0,0,0,32768,0,32768,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Priest6,,,,
+0,0,0,0,0,0,0,32768,0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,Priest7,,,,
+0,0,0,0,0,0,0,32768,0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,Priest9,,,,

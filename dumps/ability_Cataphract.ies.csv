@@ -1,0 +1,15 @@
+ClassID,UnlockArgNum,MaxLevel,Price1,Time1,Price2,Time2,Price3,Time3,Price4,Time4,Price5,Time5,Price6,Time6,Price7,Time7,Price8,Time8,Price9,Time9,Price10,Time10,ClassName,UnlockScr,UnlockArgStr,UnlockDesc,ScrCalcPrice
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cataphract14,,,,ABIL_CATAPHRACT14_PRICE
+0,0,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cataphract15,UNLOCK_ABIL_CIRCLE,Char1_7,캐터프락트 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cataphract16,UNLOCK_ABIL_CIRCLE,Char1_7,캐터프락트 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cataphract17,,,,ABIL_CATAPHRACT17_PRICE
+0,0,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cataphract18,UNLOCK_ABIL_CIRCLE,Char1_7,캐터프락트 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cataphract19,UNLOCK_ABIL_CIRCLE,Char1_7,캐터프락트 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cataphract20,,,,ABIL_CATAPHRACT20_PRICE
+0,0,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cataphract21,UNLOCK_ABIL_CIRCLE,Char1_7,캐터프락트 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cataphract22,UNLOCK_ABIL_CIRCLE,Char1_7,캐터프락트 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cataphract23,UNLOCK_ABIL_CIRCLE,Char1_7,캐터프락트 2서클 필요,ABIL_CATAPHRACT23_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cataphract25,UNLOCK_ABIL_CIRCLE,Char1_7,캐터프락트 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Cataphract11,UNLOCK_ABIL_CIRCLE,Char1_7,캐터프락트 3서클 필요,ABIL_CATAPHRACT11_PRICE
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,THSpear,,,,
+0,0,0,59392,0,59392,0,23552,0,59392,32768,8704,0,0,0,0,0,0,0,0,0,0,0,Cataphract1,UNLOCK_ABIL_CIRCLE,Char1_7,캐터프락트 3서클 필요,

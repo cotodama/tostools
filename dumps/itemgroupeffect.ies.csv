@@ -1,0 +1,17 @@
+ClassID,ClassName,EnterEffect
+0,Consume,
+0,SkillBook,
+0,Misc,
+0,Quest,
+0,Money,
+0,ItemBox,
+0,Sign,
+0,Weapon,F_item_drop_violet
+0,Hat,F_item_drop_violet
+0,Shirt,F_item_drop_violet
+0,Outer,F_item_drop_violet
+0,Pants,F_item_drop_violet
+0,Gloves,F_item_drop_violet
+0,Boots,F_item_drop_violet
+0,Ring,F_item_drop_violet
+0,Armor,F_item_drop_violet

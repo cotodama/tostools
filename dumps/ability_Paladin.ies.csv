@@ -1,0 +1,12 @@
+ClassID,UnlockArgNum,MaxLevel,Price1,Time1,Price2,Time2,Price3,Time3,Price4,Time4,Price5,Time5,Price6,Time6,Price7,Time7,Price8,Time8,Price9,Time9,Price10,Time10,ClassName,UnlockScr,UnlockArgStr,UnlockDesc,ScrCalcPrice
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Paladin11,,,,ABIL_PALADIN11_PRICE
+0,0,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Paladin12,UNLOCK_ABIL_CIRCLE,Char4_11,팔라딘 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Paladin13,UNLOCK_ABIL_CIRCLE,Char4_11,팔라딘 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Paladin14,,,,ABIL_PALADIN14_PRICE
+0,0,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Paladin15,UNLOCK_ABIL_CIRCLE,Char4_11,팔라딘 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Paladin16,UNLOCK_ABIL_CIRCLE,Char4_11,팔라딘 3서클 필요,
+0,0,0,0,0,0,0,32768,0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,Paladin1,,,,
+0,0,0,59392,0,59392,0,23552,0,59392,32768,8704,0,0,0,0,0,0,0,0,0,0,0,Paladin3,UNLOCK_ABIL_CIRCLE,Char4_11,팔라딘 3서클 필요,
+0,0,0,49152,0,49152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Paladin4,,,,
+0,0,0,20736,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Paladin5,UNLOCK_ABIL_CIRCLE,Char4_11,팔라딘 2서클 필요,
+0,0,0,0,0,0,0,32768,0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,Paladin6,,,,

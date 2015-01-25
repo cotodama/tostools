@@ -1,0 +1,19 @@
+ClassID,UnlockArgNum,MaxLevel,Price1,Time1,Price2,Time2,Price3,Time3,Price4,Time4,Price5,Time5,Price6,Time6,Price7,Time7,Price8,Time8,Price9,Time9,Price10,Time10,ClassName,UnlockScr,UnlockArgStr,UnlockDesc,ScrCalcPrice
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hoplite11,,,,ABIL_HOPLITE11_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hoplite15,UNLOCK_ABIL_CIRCLE,Char1_4,하플라이트 2서클 필요,
+0,0,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hoplite16,UNLOCK_ABIL_CIRCLE,Char1_4,하플라이트 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hoplite13,,,,ABIL_HOPLITE13_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hoplite19,UNLOCK_ABIL_CIRCLE,Char1_4,하플라이트 2서클 필요,
+0,0,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hoplite20,UNLOCK_ABIL_CIRCLE,Char1_4,하플라이트 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hoplite14,,,,ABIL_HOPLITE14_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hoplite21,UNLOCK_ABIL_CIRCLE,Char1_4,하플라이트 2서클 필요,
+0,0,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hoplite22,UNLOCK_ABIL_CIRCLE,Char1_4,하플라이트 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hoplite12,UNLOCK_ABIL_CIRCLE,Char1_4,하플라이트 2서클 필요,ABIL_HOPLITE12_PRICE
+0,0,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hoplite18,UNLOCK_ABIL_CIRCLE,Char1_4,하플라이트 3서클 필요,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Spear,,,,
+0,0,0,32768,0,32768,0,57344,0,32768,0,4096,0,0,0,0,0,0,0,0,0,0,0,Hoplite1,,,,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hoplite2,UNLOCK_ABIL_CIRCLE,Char1_4,하플라이트 2서클 필요,
+0,0,0,32768,0,32768,0,57344,0,32768,0,4096,0,0,0,0,0,0,0,0,0,0,0,Hoplite3,,,,
+0,0,0,40960,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hoplite4,,,,
+0,0,0,32768,0,32768,0,57344,0,32768,0,4096,0,0,0,0,0,0,0,0,0,0,0,Hoplite7,,,,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Hoplite9,UNLOCK_ABIL_CIRCLE,Char1_4,하플라이트 2서클 필요,

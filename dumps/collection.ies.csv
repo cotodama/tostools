@@ -1,0 +1,15 @@
+ClassID,ClassName,Name,ItemName_1,ItemName_2,ItemName_3,ItemName_4,ItemName_5,ItemName_6,ItemName_7,ItemName_8,ItemName_9,PropList
+0,COLLECT_101,몬스터 표본 세트,misc_Tanu,misc_0112,misc_0113,misc_0035,#N/A,misc_Caro,misc_Mentiwood,,,STR_BM/1/INT_BM/1
+0,COLLECT_102,광석 콜렉션,misc_ore02,misc_ore03,misc_ore04,misc_ore07,misc_talt,,,,,STR_BM/5
+0,COLLECT_103,꽃 콜렉션,leaf_hanaming,#N/A,misc_Tanu,misc_Denden,,,,,,CON_BM/5
+0,COLLECT_104,뼈 콜렉션,misc_infroRocktor2,misc_glizardon,misc_Ultanun,misc_hogma_warrior2,#N/A,,,,,INT_BM/5
+0,COLLECT_105,수정 콜렉션,misc_ellom2,misc_quartz_weaver3,misc_0046,,,,,,,MNA_BM/5
+0,COLLECT_106,왕릉 콜렉션,misc_varv2,misc_Karas,misc_shtayim,misc_schlesien_guard,misc_schlesien_darkmage3,,,,,DEX_BM/5
+0,COLLECT_107,코카트리스 콜렉션,misc_Cockatries,misc_Cockatries2,misc_Big_Cockatries2,misc_0078,,,,,,CRTATK_BM/10
+0,COLLECT_108,패러뮨 콜렉션,misc_0014,misc_0026,misc_0105,misc_0076,misc_0081,misc_Sauga_s3,,,,MDEF_BM/10
+0,COLLECT_109,테넷 성당 콜렉션,misc_Corylus,misc_glizardon2,misc_egnome2,misc_Spector_Gh,misc_0026,,,,,STR_BM/1/INT_BM/1
+0,COLLECT_110,유령 콜렉션,misc_banshee,misc_0077,misc_banshee_purple,,,,,,,DEF_BM/4
+0,COLLECT_111,LV1 카드 콜렉션,card_BiteRegina,card_Strongholder,card_necrovanter,card_Chapparition,,,,,,ResDark_BM/8
+0,COLLECT_112,LV2 카드 콜렉션,card_Moyabruka,card_Moldyhorn,card_Mothstem,card_chafer,card_molich,,,,,DEF_BM/3
+0,COLLECT_113,LV3 카드 콜렉션,card_ginklas,card_Iltiswort,card_Shnayim,card_Rajatoad,card_archon,card_Kerberos,,,,MDEF_BM/3
+0,COLLECT_114,LV4 카드 콜렉션,card_MagBurk,card_salamander,card_yonazolem,card_mineloader,,,,,,CON_BM/3

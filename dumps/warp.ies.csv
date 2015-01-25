@@ -1,0 +1,252 @@
+ClassID,TargetX,TargetY,TargetZ,Latitude,Longitude,StartDir,ClassName,CMM_Name,TargetZone
+0,0,0,32768,0,0,0,FIREMAGE_KLAPEDA,파이로맨서룸 -> 클라페다,c_Klaipe
+0,0,0,0,0,0,0,KLAPEDA_FIREMAGE,클라페다 ->파이로맨서룸,c_firemage
+0,49152,0,49152,0,0,0,BOCORS_KLAPEDA,보코르룸 ->클라페다,c_Klaipe
+0,0,0,0,0,0,0,KLAPEDA_BOCORS,클라페다 ->보코르룸,c_voodoo
+0,32768,0,0,0,0,0,HIGHLANDER_KLAPEDA,하이랜더룸 ->클라페다,c_Klaipe
+0,0,0,0,0,0,0,KLAPEDA_HIGHLANDER,클라페다 ->하이랜더룸,c_highlander
+0,24576,0,32768,0,0,0,CMINE_8_CMINE_6,수정광산 2광구 1층->수정광산 3층,d_cmine_6
+0,32768,0,40960,0,0,0,KATYN_13_2_GELE574,밀실->겔리고원57_4,f_gele_57_4
+0,0,0,24576,0,0,0,SIAULIAI11_HUEVILAGE58_3,잊혀진 나루 -> 칠채곡 58_3,f_huevillage_58_3
+0,0,0,0,0,0,0,SIAULST1_KLAPEDA,샤울레이 서쪽 숲 -> 클라페다,c_Klaipe
+0,24576,32768,16384,0,0,0,SIAULST1_GOLEM,샤울레이 서쪽 숲 -> 골렘 출몰지,f_siauliai_west
+0,32768,32768,0,0,0,0,GOLEM_SIAULST1,골렘 출몰지 -> 샤울레이 서쪽 숲,f_siauliai_west
+0,0,0,0,0,0,0,SIAULST2_KLAPEDA,샤울레이 동쪽 숲 -> 클라페다,c_Klaipe
+0,32768,0,36864,0,0,0,SIAULST2_SIAULST3,샤울레이 동쪽 숲 -> 샤울레이 광산 마을,f_siauliai_out
+0,49152,0,16384,0,0,0,KLAPEDA_SIAULST1,클라페다 -> 샤울레이 서쪽 숲,f_siauliai_west
+0,57344,0,49152,0,0,0,KLAPEDA_SIAULST2,클라페다 -> 샤울레이 동쪽 숲,f_siauliai_2
+0,0,0,16384,0,0,0,SIAULST3_SIAULST2,샤울레이 광산 마을 -> 샤울레이 동쪽 숲,f_siauliai_2
+0,16384,0,0,0,0,0,THORN19_SIAULIAI46_1,관문로 -> 봄볕나무 숲,f_siauliai_46_1
+0,0,0,61440,0,0,0,SIAULIAI46_1_THORN19,봄볕나무 숲 - >관문로,d_thorn_19
+0,16384,0,55296,0,0,0,SIAULST3_KATYNST1,샤울레이 광산 마을 -> 카틴 St1 (x),f_katyn_7
+0,49152,0,32768,0,0,0,WS_ACT3_ACT4_1,샤울레이 광산 마을 -> 수정광산 1층,d_cmine_01
+0,0,0,0,0,0,0,WS_ACT4_1_ACT3,수정광산 1층 -> 샤울레이 광산 마을,f_siauliai_out
+0,53248,0,0,0,0,0,WS_ACT4_1_ACT4_2,수정광산 1층 -> 수정광산 2층,d_cmine_02
+0,16384,0,0,0,0,0,WS_ACT4_2_ACT4_1,수정광산 2층 -> 수정광산 1층,d_cmine_01
+0,12288,0,40960,0,0,0,WS_ACT4_2_ACT4_3,수정광산 2층 -> 수정광산 3층,d_cmine_6
+0,57344,0,32768,0,0,0,WS_ACT4_3_ACT4_2,수정광산 3층 -> 수정광산 2층,d_cmine_02
+0,24576,0,57344,0,0,0,WS_ACT4_3_ACT4_BOSS,수정광산 3층 -> 수정광산 심처(보스방),d_cmine_6
+0,0,0,0,0,0,0,WS_ACT4_BOSS_ACT4_3,수정광산 심처(보스방) -> 수정광산 3층,d_cmine_6
+0,49152,0,0,0,0,0,KATYN7_SIAULST3,카틴 숲 입구 -> 샤울레이 광산 마을(x),f_siauliai_out
+0,32768,0,14336,0,0,0,KATYN7_KATYN7_2,카틴 숲 입구 -> 희미한 묘지,f_katyn_7_2
+0,49152,32768,49152,0,0,0,KATYN7_2_KATYN7,희미한 묘지 -> 카틴 숲 입구,f_katyn_7
+0,12288,0,16384,0,0,0,KATYN7_KATYN10,카틴 숲 입구 -> 구슬빛 샘터,f_katyn_10
+0,16384,0,0,0,0,0,WS_KATYN10_HUEVILLAGE58_2,구슬빛 샘터 -> 칠채곡 2,f_huevillage_58_2
+0,24576,0,0,0,0,0,CMINE_6_CMINE_8,수정광산 3층 -> 수정광산 2광구 1층,d_cmine_8
+0,0,0,0,0,0,0,WS_CMINE8_SIAULST3,수정광산 2광구 1층 -> 샤울레이 광산 마을,f_siauliai_out
+0,40960,0,32768,0,0,0,WS_SIAUL11_KATYN10,잊혀진 나루 -> 구슬빛 샘터,f_katyn_10
+0,49152,0,0,0,0,0,WS_KATYN10_SIAUL11,구슬빛 샘터 -> 잊혀진 나루,f_siauliai_11_re
+0,0,0,49152,0,0,0,KATYN13_2_KATYN12,밀실 -> 휜개울 목,f_katyn_12
+0,24576,0,49152,0,0,0,WS_KATYN12_SIAUL11,휜개울 목 -> 잊혀진 나루,f_siauliai_11_re
+0,8192,0,0,0,0,0,WS_KATYN13_KATYN12,단층지 -> 휜개울 목,f_katyn_12
+0,0,0,0,0,0,0,WS_KATYN12_KATYN13,휜개울 목 -> 단층지,f_katyn_13
+0,0,32768,8192,0,0,0,GELE574_KATYN_7,겔리고원57_4 -> 카틴 숲 입구,f_katyn_7
+0,0,0,32768,0,0,0,WS_KATYN13_2_KATYN13,밀실 -> 단층지,f_katyn_13
+0,61440,0,0,0,0,0,KATYN12_KATYN13_3,휜개울 목 -> 화살길,f_katyn_13_3
+0,49152,0,49152,0,0,0,WS_KATYN13_3_KATYN13_2,화살길 -> 밀실,f_katyn_13_2
+0,0,0,49152,0,0,0,WS_KATYN13_3_KATYN14,화살길 -> 큰뿌리 벌,f_katyn_14
+0,45056,32768,16384,0,0,0,WS_SIAUL15_KATYN14,덧댄다리 숲 -> 큰뿌리 벌,f_katyn_14
+0,40960,16384,20480,0,0,0,SIAUL15_KATYN17,덧댄다리 숲 -> 칼빛 분지,f_katyn_17
+0,40960,32768,0,0,0,0,WS_KATYN17_KATYN18,칼빛 분지 -> 자루머리 고개,f_katyn_18
+0,40960,24576,32768,0,0,0,WS_KATYN18_KATYN17,자루머리 고개 -> 칼빛 분지,f_katyn_17
+0,0,0,8192,0,0,0,WS_CMINE8_CMINE9,수정광산 2광구 1층 -> 수정광산 2광구 2층,d_cmine_9
+0,0,0,49152,0,0,0,WS_CMINE9_CMINE8,수정광산 2광구 2층 -> 수정광산 2광구 1층,d_cmine_8
+0,57344,0,26624,0,0,0,SIAULIAI46_1_SIAULIAI46_2,봄볕나무 숲 -> 흔들리는 경작지,f_siauliai_46_2
+0,32768,0,0,0,0,0,SIAULIAI46_2_SIAULIAI46_1,흔들리는 경작지 -> 봄볕나무 숲,f_siauliai_46_1
+0,8192,32768,57344,0,0,0,THORN19_THORN20,관문로 -> 가시마음골,d_thorn_20
+0,49152,49152,0,0,0,0,THORN20_THORN19,가시마음골 -> 관문로,d_thorn_19
+0,0,0,0,0,0,0,THORN20_THORN21,가시마음골 -> 낙우림,d_thorn_21
+0,36864,0,16384,0,0,0,THORN21_THORN20,낙우림 -> 가시마음골,d_thorn_20
+0,16384,8192,32768,0,0,0,THORN22_THORN23,영혼고개 -> 해진깃발숲,d_thorn_23
+0,0,16384,0,0,0,0,THORN22_1_THORN22_2,영혼고개_1 -> 영혼고개_2,d_thorn_22
+0,49152,32768,49152,0,0,0,THORN22_2_THORN22_1,영혼고개_2 -> 영혼고개_1,d_thorn_22
+0,32768,32768,49152,0,0,0,THORN22_2_THORN22_3,영혼고개_2 -> 영혼고개_3,d_thorn_22
+0,32768,16384,0,0,0,0,THORN22_3_THORN22_2,영혼고개_3 -> 영혼고개_2,d_thorn_22
+0,0,32768,49152,0,0,0,THORN23_THORN22,해진깃발숲 -> 영혼고개,d_thorn_22
+0,32768,0,20480,0,0,0,THORN23_ROKAS24,해진깃발숲 -> 대왕의 관문,f_rokas_24
+0,57344,16384,49152,0,0,0,THORN23_1_THORN23_2,해진깃발숲_1 -> 해진깃발숲_2,d_thorn_23
+0,16384,8192,24576,0,0,0,THORN23_2_THORN23_1,해진깃발숲_2 -> 해진깃발숲_1,d_thorn_23
+0,57344,0,40960,0,0,0,THORN23_2_THORN23_3,해진깃발숲_2 -> 해진깃발숲_3,d_thorn_23
+0,57344,0,0,0,0,0,THORN23_3_THORN23_2,해진깃발숲_3 -> 해진깃발숲_2,d_thorn_23
+0,57344,32768,0,0,0,0,ROKAS24_THORN23,대왕의 관문 -> 해진깃발숲,d_thorn_23
+0,40960,0,16384,0,0,0,ROKAS24_ROKAS25,대왕의 관문 -> 부러진 기둥 협곡,f_rokas_25
+0,32768,32768,57344,0,0,0,ROKAS25_ROKAS24,부러진 기둥 협곡 -> 대왕의 관문,f_rokas_24
+0,0,16384,28672,0,0,0,ROKAS25_ROKAS26,부러진 기둥 협곡 -> 긴다리 계곡,f_rokas_26
+0,32768,0,24576,0,0,0,ROKAS25_ZACHARIEL32,부러진 기둥 협곡 -> 왕릉 32,d_zachariel_32
+0,40960,0,16384,0,0,0,ROKAS26_ROKAS25,긴다리 계곡 -> 부러진 기둥 협곡,f_rokas_25
+0,0,32768,12288,0,0,0,ROKAS26_ROKAS27,긴다리 계곡 -> 석주대,f_rokas_27
+0,32768,57344,49152,0,0,0,ROKAS27_ROKAS26,석주대 -> 긴다리 계곡,f_rokas_26
+0,16384,8192,40960,0,0,0,ROKAS27_ROKAS28,석주대 -> 돌다리망터,f_rokas_28
+0,49152,0,4096,0,0,0,ROKAS27_ZACHARIEL32,석주대 -> 왕릉 32,d_zachariel_32
+0,0,57344,57344,0,0,0,ROKAS28_ROKAS27,돌다리망터 -> 석주대,f_rokas_27
+0,28672,32768,32768,0,0,0,ROKAS28_ROKAS29,돌다리망터 -> 무무고원,f_rokas_29
+0,0,16384,53248,0,0,0,ROKAS29_ROKAS28,무무고원 -> 돌다리망터,f_rokas_28
+0,49152,0,32768,0,0,0,ROKAS29_ROKAS30,무무고원 -> 왕의 고원,f_rokas_30
+0,16384,16384,32768,0,0,0,ROKAS30_ROKAS29,왕의 고원 -> 무무고원,f_rokas_29
+0,32768,0,8192,0,0,0,ROKAS30_ROKAS31,왕의 고원 -> 굽어보는 교차로,f_rokas_31
+0,40960,0,0,0,0,0,ROKAS31_ROKAS30,굽어보는 교차로 -> 왕의 고원,f_rokas_30
+0,0,32768,24576,0,0,0,ROKAS31_ZACHARIEL32,굽어보는 교차로 -> 왕릉 32,d_zachariel_32
+0,16384,16384,24576,0,0,0,ROKAS31_REMAINS37,굽어보는 교차로 -> 높이굽은 길,f_remains_37
+0,16384,0,32768,0,0,0,ZACHARIEL32_ROKAS31,왕릉 32 -> 굽어보는 교차로,f_rokas_31
+0,16384,0,8192,0,0,0,REMAINS37_ROKAS31,높이굽은 길 -> 굽어보는 교차로,f_rokas_31
+0,0,16384,12288,0,0,0,ZACHARIEL32_ZACHARIEL33,왕릉 32 -> 왕릉 33,d_zachariel_33
+0,0,0,0,0,0,0,ZACHARIEL32_ROKAS25,왕릉 32 -> 부러진 기둥 협곡,f_rokas_25
+0,32768,16384,0,0,0,0,ZACHARIEL32_ROKAS27,왕릉 32 -> 석주대,f_rokas_27
+0,0,32768,53248,0,0,0,ZACHARIEL33_ZACHARIEL32,왕릉 33 -> 왕릉 32,d_zachariel_32
+0,24576,0,0,0,0,0,ZACHARIEL33_ZACHARIEL34,왕릉 33 -> 왕릉 34,d_zachariel_34
+0,32768,0,57344,0,0,0,ZACHARIEL34_ZACHARIEL33,왕릉 34 -> 왕릉 33,d_zachariel_33
+0,16384,0,0,0,0,0,ZACHARIEL34_1_ZACHARIEL35_1,왕릉 34_1 -> 왕릉 35_1,d_zachariel_35
+0,49152,0,0,0,0,0,ZACHARIEL34_2_ZACHARIEL35_2,왕릉 34_2 -> 왕릉 35_2,d_zachariel_35
+0,16384,0,0,0,0,0,ZACHARIEL34_3_ZACHARIEL35_3,왕릉 34_3 -> 왕릉 35_3,d_zachariel_35
+0,40960,0,0,0,0,0,ZACHARIEL35_1_ZACHARIEL34_1,왕릉 35_1 -> 왕릉 34_1,d_zachariel_34
+0,57344,0,24576,0,0,0,ZACHARIEL35_2_ZACHARIEL34_2,왕릉 35_2 -> 왕릉 34_2,d_zachariel_34
+0,40960,0,0,0,0,0,ZACHARIEL35_3_ZACHARIEL34_3,왕릉 35_3 -> 왕릉 34_3,d_zachariel_34
+0,45056,32768,61440,0,0,0,ZACHARIEL35_ZACHARIEL36,왕릉 35 -> 왕릉 36,d_zachariel_36
+0,0,0,49152,0,0,0,ZACHARIEL36_ZACHARIEL35,왕릉 36 -> 왕릉 35,d_zachariel_35
+0,0,0,24576,0,0,0,WS_ROKAS24_CATACOMB01,협곡 24-> 카타콤 01,id_catacomb_01
+0,32768,0,0,0,0,0,WS_CATACOMB01_ROKAS24,카타콤 01 -> 협곡 24,f_rokas_24
+0,0,49152,32768,0,0,0,WS_CATACOMB01_1_CATACOMB01_2,카타콤 01 -> 카타콤 01_2,id_catacomb_01
+0,32768,49152,0,0,0,0,WS_CATACOMB01_2_CATACOMB01_1,카타콤 01_2 -> 카타콤 01,id_catacomb_01
+0,24576,0,49152,0,0,0,WS_KATYN13_TO_SIAUL11,단층지 -> 잊혀진 나루,f_siauliai_11_re
+0,0,0,49152,0,0,0,WS_KATYN13_TO_KATYN14,단층지 -> 큰뿌리 벌,f_katyn_14
+0,40960,0,0,0,0,0,WS_KATYN14_TO_KATYN13,큰뿌리 벌 -> 단층지,f_katyn_13
+0,40960,32768,0,0,0,0,WS_SIAUL16_TO_KATYN18,무지개 연못 -> 자루머리 고개,f_katyn_18
+0,28672,0,57344,0,0,0,WS_KATYN18_TO_SIAUL16,자루머리 고개 -> 무지개 연못,f_siauliai_16
+0,32768,16384,0,0,0,0,WS_ZACHA2F_01_TO_02,왕릉2층 -> 숨겨진 장소,d_zachariel_33
+0,8192,49152,0,0,0,0,WS_ZACHA2F_02_TO_01,숨겨진 장소 -> 왕릉 2층,d_zachariel_33
+0,49152,32768,0,0,0,0,WS_ZACHA2F_03_TO_04,왕릉2층 -> 샛길,d_zachariel_33
+0,0,0,0,0,0,0,WS_ZACHA2F_04_TO_03,샛길 -> 왕릉 2층,d_zachariel_33
+0,49152,0,20480,0,0,0,REMAINS37_REMAINS38,높이굽은 길 -> 여신의 옛뜰,f_remains_38
+0,49152,32768,24576,0,0,0,REMAINS38_REMAINS37,여신의 옛뜰 -> 높이굽은 길,f_remains_37
+0,0,0,32768,0,0,0,REMAINS38_REMAINS39,여신의 옛뜰 -> 머무르는 나뭇골,f_remains_39
+0,0,0,49152,0,0,0,REMAINS39_REMAINS38,머무르는 나뭇골 -> 여신의 옛뜰,f_remains_38
+0,0,0,53248,0,0,0,REMAINS39_REMAINS40,머루르는 나뭇골 -> 수정개울,f_remains_40
+0,0,0,16384,0,0,0,WS_REMAINS40_TO_REMAINS39,수정개울 -> 머무르는 나뭇골,f_remains_39
+0,32768,0,0,0,0,0,WS_REMAINS40_TO_FEDMIAN,수정개울 -> 페디미안,c_fedimian
+0,57344,8192,57344,0,0,0,WS_REMAINS40_TO_FIRETOWER41,수정개울 -> 마법사의 탑 1층,d_firetower_41
+0,0,16384,24576,0,0,0,FIRETOWER41_TO_REMAINS40,마법사의 탑 1층 -> 수정개울,f_remains_40
+0,32768,0,0,0,0,0,FIRETOWER41_TO_FIRETOWER42,마법사의 탑 1층 -> 마법사의 탑 2층,d_firetower_42
+0,0,32768,24576,0,0,0,FIRETOWER42_TO_FIRETOWER41,마법사의 탑 2층 -> 마법사의 탑 1층,d_firetower_41
+0,49152,49152,0,0,0,0,FIRETOWER42_TO_FIRETOWER43,마법사의 탑 2층 -> 마법사의 탑 3층,d_firetower_43
+0,32768,0,40960,0,0,0,FIRETOWER43_TO_FIRETOWER42,마법사의 탑 3층 -> 마법사의 탑 2층,d_firetower_42
+0,49152,0,40960,0,0,0,FIRETOWER43_TO_FIRETOWER44,마법사의 탑 3층 -> 마법사의 탑 4층,d_firetower_44
+0,8192,0,32768,0,0,0,FIRETOWER44_TO_FIRETOWER43,마법사의 탑 4층 -> 마법사의 탑 3층,d_firetower_43
+0,40960,0,49152,0,0,0,FIRETOWER44_TO_FIRETOWER45,마법사의 탑 4층 -> 마법사의 탑 5층,d_firetower_45
+0,49152,0,0,0,0,0,FIRETOWER45_TO_FIRETOWER44,마법사의 탑 5층 -> 마법사의 탑 4층,d_firetower_44
+0,28672,32768,8192,0,0,0,FEDMIAN_TO_REMAINS40,페디미안 -> 수정개울,f_remains_40
+0,8192,0,49152,0,0,0,CHAPEL575_GELE574,소성당 지하 1층 -> 겔리고원 4,f_gele_57_4
+0,32768,0,0,0,0,0,CHAPEL575_CHAPEL576,소성당 지하 1층 -> 소성당 지상 1층,d_chapel_57_6
+0,32768,0,57344,0,0,0,CHAPEL576_GELE574,소성당 지상 1층 -> 겔리고원 4,f_gele_57_4
+0,16384,0,16384,0,0,0,CHAPEL576_CHAPEL575,소성당 지상 1층 -> 소성당 지하 1층,d_chapel_57_5
+0,49152,0,32768,0,0,0,CHAPEL576_CHAPEL577,소성당 지상 1층 -> 소성당 지상 2층,d_chapel_57_7
+0,57344,0,32768,0,0,0,CHAPEL577_CHAPEL576,소성당 지상 2층 -> 소성당 지상 1층,d_chapel_57_6
+0,40960,0,57344,0,0,0,GELE574_CHAPEL575,겔리고원 4 -> 소성당 지하 1층,d_chapel_57_5
+0,40960,0,32768,0,0,0,GELE571_SIALLAIOUT,겔리고원 1 > 샤울레이 광산 마을,f_siauliai_out
+0,0,0,24576,0,0,0,SIALLAIOUT_GELE571,샤울레이 광산 마을 > 겔리고원 1,f_gele_57_1
+0,0,32768,49152,0,0,0,GELE571_GELE572,겔리고원 1 > 겔리고원 2,f_gele_57_2
+0,32768,32768,32768,0,0,0,GELE572_GELE571,겔리고원 2 > 겔리고원 1,f_gele_57_1
+0,0,0,24576,0,0,0,GELE572_GELE573,겔리고원2 > 겔리고원 3,f_gele_57_3
+0,0,32768,0,0,0,0,GELE573_TO_GELE572,겔리고원3 -> 겔리고원 2,f_gele_57_2
+0,16384,0,0,0,0,0,GELE573_TO_GELE574,겔리고원3 -> 겔리고원 4,f_gele_57_4
+0,24576,32768,8192,0,0,0,GELE573_TO_HUE581,겔리고원3 -> 칠채곡 1,f_huevillage_58_1
+0,0,32768,49152,0,0,0,GELE574_TO_GELE573,겔리고원4 -> 겔리고원3,f_gele_57_3
+0,16384,0,32768,0,0,0,ZACHARIEL36_ROKAS31,왕릉36 -> 협곡31,f_rokas_31
+0,0,32768,32768,0,0,0,GELE574_TO_KATYN17,겔리고원4 -> 카틴17,f_gele_57_3
+0,45056,0,16384,0,0,0,THORN19_HUEVILLAGE58_4,관문로 -> 칠채곡 4,f_huevillage_58_4
+0,49152,0,0,0,0,0,GELE574_TO_CHAPEL576,겔리고원4 -> 성당 지상 1층,d_chapel_57_6
+0,16384,0,57344,0,0,0,GELE574_TO_CHAPEL575,겔리고원4 -> 성당 지하 1층,d_chapel_57_5
+0,32768,0,8192,0,0,0,FEDMIAN_PILGRIM46,페디미안->큰아귀길,f_pilgrimroad_46
+0,49152,49152,57344,0,0,0,PILGRIM46_FEDMIAN,큰아귀길->페디미안,c_fedimian
+0,0,0,0,0,0,0,FEDIMIAN_REQUEST1,페디미안->의뢰소,c_request_1
+0,32768,0,0,0,0,0,REQUEST1_FEDIMIAN,의뢰소->페디미안,c_fedimian
+0,24576,0,0,0,0,0,HUEVILLAGE58_1_TO_GELE573,칠채곡 1 -> 겔리고원3,f_gele_57_3
+0,0,0,8192,0,0,0,HUEVILLAGE58_1_TO_HUEVILLAGE58_2,칠채곡 1 -> 칠채곡 2,f_huevillage_58_2
+0,32768,0,0,0,0,0,HUEVILLAGE58_2_TO_HUEVILLAGE58_1,칠채곡 2 -> 칠채곡 1,f_huevillage_58_1
+0,32768,0,16384,0,0,0,HUEVILLAGE58_2_TO_HUEVILLAGE58_3,칠채곡 2 -> 칠채곡 3,f_huevillage_58_3
+0,24576,0,49152,0,0,0,HUEVILLAGE58_3_TO_HUEVILLAGE58_2,칠채곡 3 -> 칠채곡 2,f_huevillage_58_2
+0,34816,0,0,0,0,0,HUEVILLAGE58_3_TO_HUEVILLAGE58_4,칠채곡 3 -> 칠채곡 4,f_huevillage_58_4
+0,0,0,0,0,0,0,HUEVILLAGE58_4_TO_HUEVILLAGE58_3,칠채곡 4 -> 칠채곡 3,f_huevillage_58_3
+0,0,32768,40960,0,0,0,HUEVILLAGE58_4_TO_THORN19,칠채곡 4 -> 관문로,d_thorn_19
+0,57344,0,49152,0,0,0,SIAULIAI46_2_SIAULIAI46_3,흔들리는 경작지 -> 세개울 숲,f_siauliai_46_3
+0,0,0,49152,0,0,0,SIAULIAI46_3_SIAULIAI46_2,세개울 숲 -> 흔들리는 경작지,f_siauliai_46_2
+0,57344,0,0,0,0,0,SIAULIAI46_2_SIAULIAI46_4,흔들리는 경작지 -> 물과나무노래 숲,f_siauliai_46_4
+0,61440,0,45056,0,0,0,SIAULIAI46_4_SIAULIAI46_2,물과나무노래 숲 -> 흔들리는 경작지,f_siauliai_46_2
+0,32768,49152,0,0,0,0,KATYN13_2_THORN22,밀실 -> 영혼고개,d_thorn_22
+0,0,0,16384,0,0,0,KATYN12_KATYN13_2,휜개울 목 -> 밀실,f_katyn_13_2
+0,0,16384,16384,0,0,0,KATYN12_THORN23,휜개울 목 -> 해진깃발숲,d_thorn_23
+0,57344,32768,20480,0,0,0,KATYN13_3_KATYN12,화살길 -> 휜개울 목,f_katyn_12
+0,32768,49152,16384,0,0,0,SIAULIAI15_ROKAS24,덧댄다리 숲 -> 대왕의 관문,f_rokas_24
+0,28672,16384,0,0,0,0,SIAULIAI16_ROKAS26,무지개 연못 -> 긴다리 계곡,f_rokas_26
+0,45056,24576,0,0,0,0,SIAULIAI16_ROKAS27,무지개 연못 -> 석주대,f_rokas_27
+0,32768,0,53248,0,0,0,PILGRIM46_PILGRIM47,큰아귀 길 -> 빛내린 땅,f_pilgrimroad_47
+0,49152,0,24576,0,0,0,PILGRIM47_PILGRIM46,빛내린 땅 -> 큰아귀 길,f_pilgrimroad_46
+0,40960,49152,8192,0,0,0,PILGRIM52_PILGRIM51,가식의 교각로 -> 적갈나무 단층숲,f_pilgrimroad_51
+0,57344,0,57344,0,0,0,PILGRIM51_PILGRIM52,적갈나무 단층숲 -> 가식의 교각로,f_pilgrimroad_52
+0,32768,0,28672,0,0,0,PILGRIM50_PILGRIM47,흩어진 계단 -> 빛내린 땅,f_pilgrimroad_47
+0,57344,32768,16384,0,0,0,PILGRIM47_PILGRIM50,빛내린 땅 -> 흩어진 계단,f_pilgrimroad_50
+0,49152,0,20480,0,0,0,PILGRIM50_PILGRIM51,흩어진 계단 -> 적갈나무 단층 숲,f_pilgrimroad_51
+0,49152,32768,16384,0,0,0,PILGRIM51_PILGRIM50,적갈나무 단층 숲 -> 흩어진 계단,f_pilgrimroad_50
+0,0,32768,32768,0,0,0,PILGRIM47_PCATACOMB1,빛내린 땅 -> 지하통로 2,p_catacomb_1
+0,45056,0,16384,0,0,0,PCATACOMB1_PILGRIM47,지하통로 2 -> 빛내린 땅,f_pilgrimroad_47
+0,0,8192,16384,0,0,0,KATYN17_SIAUL15,칼빛 분지 -> 덧댄다리 숲,f_siauliai_15_re
+0,16384,0,0,0,0,0,KATYN13_3_ROKAS25,화살길 -> 부러진 기둥 협곡,f_rokas_25
+0,0,49152,49152,0,0,0,THORN21_THORN23,낙우림 -> 해진깃발숲,d_thorn_23
+0,0,0,40960,0,0,0,THORN23_THORN21,해진깃발숲 -> 낙우림,d_thorn_21
+0,0,0,0,0,0,0,PILGRIM52_FLASH59,가식의 교각로 -> 통곡의 광장,f_flash_59
+0,0,0,0,0,0,0,FLASH59_PILGRIM52,통곡의 광장 -> 가식의 교각로,f_pilgrimroad_52
+0,0,0,32768,0,0,0,PILGRIM52_CATHEDRAL53,가식의 교각로 -> 본당,d_cathedral_53
+0,0,0,49152,0,0,0,CATHEDRAL53_PILGRIM52,본당 -> 가식의 교각로,f_pilgrimroad_52
+0,24576,0,0,0,0,0,CATHEDRAL53_CATHEDRAL54,본당 -> 대회랑,d_cathedral_54
+0,0,0,32768,0,0,0,CATHEDRAL54_CATHEDRAL53,대회랑 -> 본당,d_cathedral_53
+0,24576,0,0,0,0,0,CATHEDRAL54_PILGRIM55,대회랑 -> 대성당의 참회로,f_pilgrimroad_55
+0,40960,0,49152,0,0,0,PILGRIM55_CATHEDRAL54,대성당의 참회로 -> 대회랑,d_cathedral_54
+0,49152,32768,32768,0,0,0,CATHEDRAL54_PILGRIM55_RE,대회랑 -> 대성당의 참회로,f_pilgrimroad_55
+0,49152,0,0,0,0,0,PILGRIM55_CATHEDRAL54_RE,대성당의 참회로 -> 대회랑,d_cathedral_54
+0,57344,0,0,0,0,0,CATHEDRAL54_CATHEDRAL56,대회랑 -> 지성소,d_cathedral_56
+0,16384,0,32768,0,0,0,CATHEDRAL56_CATHEDRAL54,지성소 -> 대회랑,d_cathedral_54
+0,32768,49152,32768,0,0,0,SIAUL15_ROKAS27,덧댄다리 숲 -> 석주대,f_rokas_27
+0,49152,0,0,0,0,0,ROKAS30_REMAINS39,왕의 고원 -> 머무르는 나뭇골,f_remains_39
+0,0,0,0,0,0,0,REMAINS39_ROKAS30,머무르는 나뭇골 -> 왕의 고원,f_rokas_30
+0,0,0,49152,0,0,0,KATYN14_PILGRIM46,큰뿌리 벌 -> 큰아귀길,f_pilgrimroad_46
+0,32768,0,32768,0,0,0,KATYN17_ROKAS31,칼빛 분지 -> 굽어보는 교차로,f_rokas_31
+0,32768,16384,40960,0,0,0,KATYN17_ROKAS29,칼빛 분지 -> 무무고원,f_rokas_29
+0,0,8192,45056,0,0,0,KATYN17_REMAINS37,칼빛 분지 -> 높이굽은 길,f_remains_37
+0,0,32768,40960,0,0,0,ROKAS29_PCATACOMB1,무무고원 -> 지하통로 2,p_catacomb_1
+0,32768,0,8192,0,0,0,PCATACOMB1_ROKAS29,지하통로 2 -> 무무고원,f_rokas_29
+0,0,0,0,0,0,0,REMAINS37_PCATHEDRAL1,높이굽은 길 -> 지하통로 1,p_cathedral_1
+0,32768,57344,4096,0,0,0,PCATHEDRAL1_REMAINS37,지하통로 1 -> 높이굽은 길,f_remains_37
+0,28672,32768,16384,0,0,0,PCATHEDRAL1_THORN20,지하통로 1 -> 가시마음골,d_thorn_20
+0,32768,0,49152,0,0,0,THORN20_PCATHEDRAL1,가시마음골 -> 지하통로 1,p_cathedral_1
+0,53248,0,16384,0,0,0,THORN20_THORN22,가시마음골 -> 영혼고개,d_thorn_22
+0,24576,0,49152,0,0,0,THORN22_THORN20,영혼고개 -> 가시마음골,d_thorn_20
+0,40960,0,45056,0,0,0,KATYN45_3_KATYN45_2,점층바위 숲 -> 꽃모자른 숲,f_katyn_45_2
+0,0,0,16384,0,0,0,KATYN45_2_KATYN45_3,꽃모자른 숲 -> 점층바위 숲,f_katyn_45_3
+0,49152,0,0,0,0,0,FLASH59_FLASH60,통곡의 광장 -> 스산한 장터,f_flash_60
+0,0,0,49152,0,0,0,FLASH60_FLASH59,스산한 장터 -> 통곡의 광장,f_flash_59
+0,0,32768,0,0,0,0,FLASH60_FLASH61,스산한 장터 -> 루클리스 거리,f_flash_61
+0,32768,0,0,0,0,0,FLASH61_FLASH60,루클리스 거리 -> 스산한 장터,f_flash_60
+0,0,0,49152,0,0,0,FLASH61_FLASH59,루클리스 거리 -> 통곡의 광장,f_flash_59
+0,16384,32768,0,0,0,0,FLASH59_FLASH61,통곡의 광장 -> 루클리스 거리,f_flash_61
+0,0,0,12288,0,0,0,FLASH59_FLASH63,통곡의 광장 -> 중심시가,f_flash_63
+0,0,0,49152,0,0,0,FLASH63_FLASH59,중심시가 -> 통곡의 광장,f_flash_59
+0,0,32768,20480,0,0,0,FLASH63_FLASH64,중심시가 -> 내성곽지구,f_flash_64
+0,0,0,49152,0,0,0,FLASH64_FLASH63,내성곽지구 -> 중심시가,f_flash_63
+0,12288,0,32768,0,0,0,KATYN13_2_HUEVILLAGE58_4,밀실 -> 칠채고원평,f_huevillage_58_4
+0,0,0,0,0,0,0,HUEVILLAGE58_4_SIAULIAI46_4,칠채고원평 -> 물과나무노래 숲,f_siauliai_46_4
+0,40960,0,16384,0,0,0,SIAULIAI46_4_HUEVILLAGE58_4,물과나무노래 숲 -> 칠채고원평,f_huevillage_58_4
+0,32768,0,24576,0,0,0,SIAULIAI46_4_SIAULIAI46_3,물과나무노래 숲 -> 세개울 숲,f_siauliai_46_3
+0,0,0,32768,0,0,0,SIAULIAI46_3_SIAULIAI46_4,세개울 숲 -> 물과나무노래 숲,f_siauliai_46_4
+0,40960,32768,36864,0,0,0,KATYN45_1_KATYN7,청람머문 숲 -> 카틴 숲 입구,f_katyn_7
+0,20480,0,32768,0,0,0,KATYN45_1_KATYN7_2,청람머문 숲 -> 희미한 묘지,f_katyn_7_2
+0,40960,32768,32768,0,0,0,KATYN45_1_KATYN45_2,청람머문 숲 -> 꽃모자른 숲,f_katyn_45_2
+0,0,0,40960,0,0,0,KATYN45_2_KATYN45_1,꽃모자른 숲 -> 청람머문 숲,f_katyn_45_1
+0,16384,0,24576,0,0,0,KATYN7_GELE574,카틴 숲 입구 -> 내린나무 화원,f_gele_57_4
+0,0,0,61440,0,0,0,KATYN7_2_KATYN13,희미한 묘지 -> 단층지,f_katyn_13
+0,32768,32768,57344,0,0,0,KATYN13_KATYN7_2,단층지 -> 희미한 묘지,f_katyn_7_2
+0,8192,0,32768,0,0,0,KATYN13_HUEVILLAGE58_4,단층지 -> 칠채고원평,f_huevillage_58_4
+0,0,0,32768,0,0,0,HUEVILLAGE58_4_KATYN13,칠채고원평 -> 단층지,f_katyn_13
+0,61440,0,49152,0,0,0,KATYN13_KATYN14,단층지 -> 큰뿌리 벌,f_katyn_14
+0,36864,32768,49152,0,0,0,THORN22_KATYN14,영혼고개 -> 큰뿌리 벌,f_katyn_14
+0,0,0,20480,0,0,0,KATYN14_THORN22,큰뿌리 벌 -> 영혼고개,d_thorn_22
+0,53248,32768,16384,0,0,0,TEST_TO_G_TOWER_1,테스트 -> 대지의 탑,mission_groundtower_1
+0,32768,0,0,0,0,0,TO_SIAULIAI_WEST,샤울레이 비밀공간->샤울레이 서쪽 숲,f_siauliai_west

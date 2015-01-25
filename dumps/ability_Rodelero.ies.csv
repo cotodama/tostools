@@ -1,0 +1,16 @@
+ClassID,UnlockArgNum,MaxLevel,Price1,Time1,Price2,Time2,Price3,Time3,Price4,Time4,Price5,Time5,Price6,Time6,Price7,Time7,Price8,Time8,Price9,Time9,Price10,Time10,ClassName,UnlockScr,UnlockArgStr,UnlockDesc,ScrCalcPrice
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rodelero11,,,,ABIL_RODELERO11_PRICE
+0,0,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rodelero12,UNLOCK_ABIL_CIRCLE,Char1_10,로델레로 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rodelero13,UNLOCK_ABIL_CIRCLE,Char1_10,로델레로 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rodelero14,,,,ABIL_RODELERO14_PRICE
+0,0,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rodelero15,UNLOCK_ABIL_CIRCLE,Char1_10,로델레로 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rodelero16,UNLOCK_ABIL_CIRCLE,Char1_10,로델레로 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rodelero17,,,,ABIL_RODELERO17_PRICE
+0,0,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rodelero18,UNLOCK_ABIL_CIRCLE,Char1_10,로델레로 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rodelero19,UNLOCK_ABIL_CIRCLE,Char1_10,로델레로 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rodelero20,,,,ABIL_RODELERO20_PRICE
+0,0,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rodelero21,UNLOCK_ABIL_CIRCLE,Char1_10,로델레로 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rodelero22,UNLOCK_ABIL_CIRCLE,Char1_10,로델레로 3서클 필요,
+0,0,0,0,0,0,0,32768,0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,Rodelero1,,,,
+0,0,0,49152,0,49152,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rodelero2,,,,
+0,0,0,32768,0,32768,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Rodelero6,,,,

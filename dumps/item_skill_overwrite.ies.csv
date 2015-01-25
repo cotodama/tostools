@@ -1,0 +1,10 @@
+ClassID,SplRange,SplAngle,WaveLength,BackHitRange,SR,CRT,HitCount,ClassName,ItemName,SkillName,SplType
+16384,0,0,0,0,0,0,0,Sword1,Sword_gladius_C,Swordman_Thrust,Square
+17408,0,0,0,0,0,0,0,Sword2,Sword_falchion_D,Swordman_Thrust,Square
+18432,0,0,0,0,0,0,0,Sword3,Sword_kaskara_D,Swordman_Thrust,Square
+19456,0,0,0,0,0,0,0,Sword4,Sword_cinquedea_D,Swordman_Thrust,Square
+20480,0,0,0,0,0,0,0,Sword5,Sword_sabre_D,Swordman_Thrust,Square
+21504,0,0,0,0,0,0,0,Sword6,Sword_sabre_D,Normal_Attack,Square
+22528,0,0,0,0,0,0,0,Sword7,THSword_nodachi_D,Normal_Attack,Square
+23552,0,0,0,0,0,0,0,Sword8,THSword_claymore_D,Swordman_Thrust,Square
+24576,0,0,0,0,0,0,0,Sword10,Sword_krisses_C,Swordman_Thrust,Square

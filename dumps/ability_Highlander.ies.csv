@@ -1,0 +1,21 @@
+ClassID,UnlockArgNum,MaxLevel,Price1,Time1,Price2,Time2,Price3,Time3,Price4,Time4,Price5,Time5,Price6,Time6,Price7,Time7,Price8,Time8,Price9,Time9,Price10,Time10,ClassName,UnlockScr,UnlockArgStr,UnlockDesc,ScrCalcPrice
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander11,,,,ABIL_HIGHLANDER11_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander16,UNLOCK_ABIL_CIRCLE,Char1_2,하이랜더 2서클 필요 ,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander17,UNLOCK_ABIL_CIRCLE,Char1_2,하이랜더 3서클 필요 ,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander12,,,,ABIL_HIGHLANDER12_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander18,UNLOCK_ABIL_CIRCLE,Char1_2,하이랜더 2서클 필요 ,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander19,UNLOCK_ABIL_CIRCLE,Char1_2,하이랜더 3서클 필요 ,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander13,,,,ABIL_HIGHLANDER13_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander20,UNLOCK_ABIL_CIRCLE,Char1_2,하이랜더 2서클 필요 ,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander21,UNLOCK_ABIL_CIRCLE,Char1_2,하이랜더 3서클 필요 ,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander15,,,,ABIL_HIGHLANDER15_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander22,UNLOCK_ABIL_CIRCLE,Char1_2,하이랜더 2서클 필요 ,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander23,UNLOCK_ABIL_CIRCLE,Char1_2,하이랜더 3서클 필요 ,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander14,UNLOCK_ABIL_CIRCLE,Char1_2,하이랜더 2서클 필요 ,ABIL_HIGHLANDER14_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander24,UNLOCK_ABIL_CIRCLE,Char1_2,하이랜더 3서클 필요 ,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,THSword,,,,
+0,0,0,32768,0,32768,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander3,,,,
+0,0,0,0,0,0,0,32768,0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,Highlander4,,,,
+0,0,0,8192,0,8192,0,45056,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Highlander6,UNLOCK_ABIL_CIRCLE,Char1_2,하이랜더 2서클 필요 ,
+0,0,0,45056,0,0,0,4096,0,32768,0,28672,0,0,0,0,0,0,0,0,0,0,0,Highlander9,,,,
+0,0,0,32768,0,32768,0,57344,0,32768,0,4096,0,0,0,0,0,0,0,0,0,0,0,Highlander10,UNLOCK_ABIL_CIRCLE,Char1_2,하이랜더 2서클 필요 ,

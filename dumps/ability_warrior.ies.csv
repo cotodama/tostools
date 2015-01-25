@@ -1,0 +1,21 @@
+ClassID,UnlockArgNum,MaxLevel,Price1,Time1,Price2,Time2,Price3,Time3,Price4,Time4,Price5,Time5,Price6,Time6,Price7,Time7,Price8,Time8,Price9,Time9,Price10,Time10,ClassName,UnlockScr,UnlockArgStr,UnlockDesc,ScrCalcPrice
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Swordman1,,,,ABIL_SWORDMAN1_PRICE
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Swordman16,UNLOCK_ABIL_CIRCLE,Char1_1,소드맨 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Swordman17,UNLOCK_ABIL_CIRCLE,Char1_1,소드맨 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Swordman2,,,,ABIL_SWORDMAN2_PRICE
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Swordman18,UNLOCK_ABIL_CIRCLE,Char1_1,소드맨 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Swordman19,UNLOCK_ABIL_CIRCLE,Char1_1,소드맨 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Swordman13,,,,ABIL_SWORDMAN13_PRICE
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Swordman20,UNLOCK_ABIL_CIRCLE,Char1_1,소드맨 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Swordman21,UNLOCK_ABIL_CIRCLE,Char1_1,소드맨 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Swordman14,,,,ABIL_SWORDMAN14_PRICE
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Swordman22,UNLOCK_ABIL_CIRCLE,Char1_1,소드맨 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Swordman23,UNLOCK_ABIL_CIRCLE,Char1_1,소드맨 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Swordman15,UNLOCK_ABIL_CIRCLE,Char1_1,소드맨 2서클 필요,ABIL_SWORDMAN15_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Swordman24,UNLOCK_ABIL_CIRCLE,Char1_1,소드맨 3서클 필요,
+0,0,0,8192,0,8192,0,45056,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Penetration,UNLOCK_ABIL_CIRCLE,Char1_1,소드맨 3서클 필요,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,DeepStraight,,,,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Repeat,,,,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Blow,,,,
+0,0,0,0,0,0,0,32768,0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,Swordman7,UNLOCK_ABIL_CIRCLE,Char1_1,소드맨 2서클 필요,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Swordman10,,,,

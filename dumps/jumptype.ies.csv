@@ -1,0 +1,6 @@
+ClassID,Range,Power,Time,Freq,Angle,RaiseSpeed,FallSpeed,BounceRatio,HitDelay,SplRange,SafeTime,ClassName,MovingJump,ShockWave,Effect,EftType,HitType,LandSound,LandDamage,FallDamage,DamageShockWave
+0,0,0,0,0,0,0,0,0,0,0,0,NormalJump,YES,NO,,FORK,HitMotion,,NO,NO,YES
+0,49152,0,39322,0,0,0,0,13107,52429,0,39322,AttackJump,YES,YES,F_ground070,FORK,HitMotion,,NO,YES,YES
+0,49152,0,39322,0,0,0,0,13107,52429,0,0,BossJump,NO,YES,zombie_boss_jumpatk,FORK,HitMotion,mon_zombieboss_skl1_shot,YES,NO,YES
+0,49152,0,39322,0,0,0,0,13107,52429,0,39322,BossAttackJump,YES,YES,F_ground070,FORK,HitMotion,,NO,YES,NO
+0,49152,0,39322,0,0,0,0,0,0,0,0,SummonJump,YES,YES,,FORK,HitMotion,,NO,NO,YES

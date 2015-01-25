@@ -1,0 +1,16 @@
+ClassID,UnlockArgNum,MaxLevel,Price1,Time1,Price2,Time2,Price3,Time3,Price4,Time4,Price5,Time5,Price6,Time6,Price7,Time7,Price8,Time8,Price9,Time9,Price10,Time10,ClassName,UnlockScr,UnlockArgStr,UnlockDesc,ScrCalcPrice
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wizard11,,,,ABIL_WIZARD11_PRICE
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wizard15,UNLOCK_ABIL_CIRCLE,Char2_1,위자드 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wizard16,UNLOCK_ABIL_CIRCLE,Char2_1,위자드 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wizard2,,,,ABIL_WIZARD2_PRICE
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wizard17,UNLOCK_ABIL_CIRCLE,Char2_1,위자드 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wizard18,UNLOCK_ABIL_CIRCLE,Char2_1,위자드 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wizard14,,,,ABIL_WIZARD14_PRICE
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wizard19,UNLOCK_ABIL_CIRCLE,Char2_1,위자드 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wizard20,UNLOCK_ABIL_CIRCLE,Char2_1,위자드 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wizard13,UNLOCK_ABIL_CIRCLE,Char2_1,위자드 2서클 필요,ABIL_WIZARD13_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wizard21,UNLOCK_ABIL_CIRCLE,Char2_1,위자드 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wizard12,UNLOCK_ABIL_CIRCLE,Char2_1,위자드 3서클 필요,ABIL_WIZARD12_PRICE
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wizard4,,,,
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wizard7,,,,
+0,0,0,8192,0,8192,0,45056,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Wizard8,UNLOCK_ABIL_CIRCLE,Char2_1,위자드 3서클 필요,

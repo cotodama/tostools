@@ -1,0 +1,5 @@
+ClassID,JobStep,CheckValue,JobName,QuestProperty
+0,0,0,Char1_1,M2_SWORD_TECH_05
+0,0,0,Char2_1,M2_WIZARD_TECH_05
+0,0,0,Char3_1,M2_ARCHER_TECH_05
+0,0,0,Char4_1,M2_CLERIC_TECH_05

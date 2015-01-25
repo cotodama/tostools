@@ -1,0 +1,8 @@
+ClassID,RandomAniCount,AtkCount,EnableAngle,HitRange,MinR,MaxR,AddDamage,MoveHitTime,TotalTime,ApplyTime,SplRange,SplLimit,SplDamage,ClassName,Name,Icon,AniType,HitTime,SplType,SCP
+17408,0,0,0,0,0,0,0,0,0,16384,0,0,0,atk_barehands,맨손,icon_stn_test2,Each,233,,SCR_ATTACK_HIT
+54272,0,0,0,0,0,0,0,0,0,16384,0,0,0,atk_epeegarde,에페 갸르드,icon_stn_test2,Each,300;566,,SCR_ATTACK_HIT
+9216,0,0,0,0,0,0,0,0,0,16384,0,0,0,atk_epeegarde2,에페 갸르드,icon_stn_test2,Each,230,,SCR_ATTACK_HIT
+19456,0,0,0,0,0,0,0,0,0,16384,0,0,0,atk_epeegarde3,에페 갸르드,icon_stn_test2,Each,230,,SCR_ATTACK_HIT
+25600,0,0,0,0,0,0,0,0,32768,16384,0,0,0,atk_gunshot,사격,icon_stn_test2,Each,1100,,SCR_ATTACK_HIT
+62464,0,0,0,0,0,0,0,32768,0,16384,0,0,0,atk_magic,마법,icon_stn_test2,Each,800,,SCR_ATTACK_HIT
+63488,0,0,0,0,0,0,0,32768,0,16384,0,0,0,atk_magic2,마법,icon_stn_test2,Each,700,,SCR_ATTACK_HIT

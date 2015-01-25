@@ -1,0 +1,6 @@
+ClassID,UnlockArgNum,MaxLevel,Price1,Time1,Price2,Time2,Price3,Time3,Price4,Time4,Price5,Time5,Price6,Time6,Price7,Time7,Price8,Time8,Price9,Time9,Price10,Time10,ClassName,UnlockScr,UnlockArgStr,UnlockDesc,ScrCalcPrice
+0,0,0,0,0,0,0,32768,0,0,0,32768,0,0,0,0,0,0,0,0,0,0,0,Chronomancer1,,,,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Chronomancer2,,,,
+0,0,0,0,0,0,0,32768,0,0,0,32768,0,0,0,0,0,0,0,0,0,0,0,Chronomancer3,,,,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Chronomancer4,,,,
+0,0,0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Chronomancer5,,,,

@@ -1,0 +1,22 @@
+ClassID,ClassName,Name,UseDaily,UseWeekly
+0,Ranking1,랭킹 테스트 1,NO,YES
+0,Damage_Week,데미지 랭킹,NO,YES
+0,OverKill,오버 킬 횟수,NO,NO
+0,PcKill,플레이어 킬 횟수,NO,NO
+0,MonKill_kepa,케파 킬 횟수,NO,NO
+0,MonKill,몬스터 킬 횟수,NO,NO
+0,PcRevive,부활횟수,NO,NO
+0,MonBossKill,보스 몬스터 킬,NO,NO
+32768,TournamentGift,토너먼트선물,NO,NO
+0,TournamentWin,토너먼트선물,NO,NO
+16384,Quest,퀘스트 수행 횟수,NO,NO
+32768,Vegitable,야채 재배 횟수,NO,NO
+49152,GuildQuest,의뢰 성공 횟수,NO,NO
+0,FieldEvent,필드 이벤트 완수,NO,NO
+16384,DaegilCat,대길이 대화,NO,NO
+8192,TreasureBox,보물상자,NO,NO
+16384,ItemRecipe,아이템제작,NO,NO
+36864,HairShop,미용실,NO,NO
+40960,Connection,접속 횟수,NO,NO
+18432,MapReveal,세계 탐색 점수,NO,NO
+34816,PlayCBT1,CBT1 참여,NO,NO

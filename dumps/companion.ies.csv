@@ -1,0 +1,5 @@
+ClassID,MaxVehicle,OffsetY,AddSpeed,ClassName,SellPrice,FoodGroup,IsPat,IsRide,IsVehicle
+0,0,0,0,GameStudio_None,,,NO,NO,NO
+0,0,0,0,Mon_alpaka,,,YES,NO,NO
+0,0,0,0,Velhider,SCR_GET_VELHIDER_PRICE,1,NO,YES,NO
+0,0,0,0,hoglan_Pet,SCR_GET_HOGLAN_PRICE,2,NO,YES,NO

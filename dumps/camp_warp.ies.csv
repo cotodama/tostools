@@ -1,0 +1,36 @@
+ClassID,ClassName,Name,Zone,City,Group
+27648,WARP_F_SIAULIAI_WEST,샤울레이 서쪽 숲,f_siauliai_west,c_Klaipe,클라페다령
+37888,WARP_C_KLAIPE,클라페다,c_Klaipe,c_Klaipe,클라페다령
+48128,WARP_F_SIAULIAI_EST,샤울레이 동쪽 숲,f_siauliai_2,c_Klaipe,클라페다령
+58368,WARP_F_SIAULIAI_OUT,샤울레이 광산 마을,f_siauliai_out,c_Klaipe,클라페다령
+3072,WARP_F_GELE_57_1,은수협곡,f_gele_57_1,c_Klaipe,클라페다령
+13312,WARP_F_KATYN_45_1,청람머문 숲,f_katyn_45_1,c_Klaipe,키렌 지방
+23552,WARP_F_KATYN_45_3,점층바위 숲,f_katyn_45_3,c_Klaipe,키렌 지방
+33792,WARP_D_CMINE_01,수정광산 1층,d_cmine_01,c_Klaipe,클라페다령
+44032,WARP_D_CMINE_02,수정광산 2층,d_cmine_02,c_Klaipe,클라페다령
+54272,WARP_D_CMINE_6,수정광산 3층,d_cmine_6,c_Klaipe,클라페다령
+64512,WARP_F_KATYN_7_2,희미한 묘지,f_katyn_7_2,c_Klaipe,클라페다령
+9216,WARP_F_GELE_57_3,옥빛서린 벼랑,f_gele_57_3,c_Klaipe,클라페다령
+19456,WARP_F_HUEVILLAGE_58_2,마름포석골,f_huevillage_58_2,c_Klaipe,클라페다령
+29696,WARP_D_CHAPEL_57_6,테넷 성당 지상 1층,d_chapel_57_6,c_Klaipe,클라페다령
+39936,WARP_F_SIAULIAI_46_4,물과나무노래 숲,f_siauliai_46_4,c_Klaipe,클라페다령
+50176,WARP_D_THORN_19,관문로,d_thorn_19,c_Klaipe,페디미안 직할령
+60416,WARP_F_ROKAS_24,대왕의 관문,f_rokas_24,c_Klaipe,페디미안 직할령
+5120,WARP_P_CATHEDRAL_1,지하통로 1,p_cathedral_1,c_Klaipe,페디미안 직할령
+15360,WARP_F_ROKAS_27,석주대,f_rokas_27,c_Klaipe,페디미안 직할령
+25600,WARP_D_ZACHARIEL_33,왕릉 2층,d_zachariel_33,c_Klaipe,페디미안 직할령
+35840,WARP_D_ZACHARIEL_36,왕릉 5층,d_zachariel_36,c_Klaipe,페디미안 직할령
+46080,WARP_F_REMAINS_38,여신의 옛뜰,f_remains_38,c_Klaipe,페디미안 직할령
+56320,WARP_F_ROKAS_30,왕의 고원,f_rokas_30,c_Klaipe,페디미안 직할령
+1024,WARP_P_CATACOMB_1,지하통로 2,p_catacomb_1,c_Klaipe,로무바 성역
+11264,WARP_D_FIRETOWER_41,마법사의 탑 1층,d_firetower_41,c_Klaipe,페디미안 직할령
+21504,WARP_D_FIRETOWER_45,마법사의 탑 5층,d_firetower_45,c_Klaipe,페디미안 직할령
+31744,WARP_C_FEDIMIAN,페디미안,c_fedimian,c_fedimian,페디미안 직할령
+41984,WARP_F_PILGRIMROAD_51,적갈나무 단층숲,f_pilgrimroad_51,c_Klaipe,로무바 성역
+52224,WARP_F_PILGRIMROAD_55,대성당의 참회로,f_pilgrimroad_55,c_Klaipe,로무바 성역
+62464,WARP_F_FLASH_61,루클리스 거리,f_flash_61,c_Klaipe,칼리스 지방
+7168,WARP_D_CHAPEL_57_5,테넷 성당 지하 1층,d_chapel_57_5,c_Klaipe,클라페다령
+17408,WARP_F_HUEVILLAGE_58_1,풀가람 터,f_huevillage_58_1,c_Klaipe,클라페다령
+27648,WARP_D_ZACHARIEL_32,왕릉 1층,d_zachariel_32,c_Klaipe,페디미안 직할령
+37888,WARP_F_REMAINS_37,높이굽은 길,f_remains_37,c_Klaipe,페디미안 직할령
+48128,WARP_F_GELE_57_4,내린나무 화원,f_gele_57_4,c_Klaipe,클라페다령

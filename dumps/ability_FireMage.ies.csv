@@ -1,0 +1,22 @@
+ClassID,UnlockArgNum,MaxLevel,Price1,Time1,Price2,Time2,Price3,Time3,Price4,Time4,Price5,Time5,Price6,Time6,Price7,Time7,Price8,Time8,Price9,Time9,Price10,Time10,ClassName,UnlockScr,UnlockArgStr,UnlockDesc,ScrCalcPrice
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer11,,,,ABIL_PYROMANCER11_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer17,UNLOCK_ABIL_CIRCLE,Char2_2,파이로맨서 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer18,UNLOCK_ABIL_CIRCLE,Char2_2,파이로맨서 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer12,,,,ABIL_PYROMANCER12_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer19,UNLOCK_ABIL_CIRCLE,Char2_2,파이로맨서 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer20,UNLOCK_ABIL_CIRCLE,Char2_2,파이로맨서 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer13,,,,ABIL_PYROMANCER13_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer21,UNLOCK_ABIL_CIRCLE,Char2_2,파이로맨서 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer22,UNLOCK_ABIL_CIRCLE,Char2_2,파이로맨서 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer16,,,,ABIL_PYROMANCER16_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer23,UNLOCK_ABIL_CIRCLE,Char2_2,파이로맨서 2서클 필요,
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer24,UNLOCK_ABIL_CIRCLE,Char2_2,파이로맨서 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer15,UNLOCK_ABIL_CIRCLE,Char2_2,파이로맨서 2서클 필요,ABIL_PYROMANCER15_PRICE
+0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer25,UNLOCK_ABIL_CIRCLE,Char2_2,파이로맨서 3서클 필요,
+0,0,15360,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer14,UNLOCK_ABIL_CIRCLE,Char2_2,파이로맨서 3서클 필요,ABIL_PYROMANCER14_PRICE
+0,0,0,0,0,0,0,32768,0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,Pyromancer1,,,,
+0,0,0,0,0,0,0,32768,0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,Pyromancer2,,,,
+0,0,0,32768,0,32768,0,24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer4,UNLOCK_ABIL_CIRCLE,Char2_2,파이로맨서 3서클 필요,
+0,0,0,0,0,0,0,32768,0,0,0,16384,0,0,0,0,0,0,0,0,0,0,0,Pyromancer6,,,,
+0,0,0,57344,0,57344,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer7,UNLOCK_ABIL_CIRCLE,Char2_2,파이로맨서 2서클 필요,
+0,0,0,4096,0,32768,0,28672,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Pyromancer8,,,,

@@ -1,0 +1,25 @@
+ClassID,Count,NumArg1,NumArg2,NumArg3,NumArg4,NumArg5,NumArg6,NumArg7,NumArg8,NumArg9,NumArg10,NumArg11,NumArg12,NumArg13,NumArg14,NumArg15,ClassName,Name,Script,Func1,StrArg1,StrArg2,StrArg3,StrArg4,StrArg5,StrArg6,StrArg7,StrArg8,StrArg9,StrArg10,StrArg11,StrArg12,StrArg13,StrArg14,StrArg15,UseTx,UseDB,MergeTable1,MergeClass1
+20480,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,ssn_mon_treasure,트레저 드랍보상,SSN_MON_TREASURE,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+23552,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_QUESTNPC_AUTOKILL,퀘스트NPC PC 없을 때 사라지기,SSN_QUESTNPC_AUTOKILL,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+24576,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_OBJ_COLORBLEND,NPC 바디 칼라브랜드 용,SSN_OBJ_COLORBLEND,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+25856,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_MON_SUMMON,주기적 몬스터 소환 SSN,SSN_MON_SUMMON,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+26112,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_MON_EFFECT,주기적 몬스터 이팩트 및 색 변환,SSN_MON_EFFECT,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+26368,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_TRACK_FRIENDLYNPC_KILLSHARE,퀘스트 아군 NPC의 킬체크 공유,SSN_TRACK_FRIENDLYNPC_KILLSHARE,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+26880,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_S_AI_PART_UNHIDE,분할 나타나기,SSN_S_AI_PART_UNHIDE,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+27136,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_S_AI_PART_UNHIDE_,분할 나타나기,SSN_S_AI_PART_UNHIDE,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+27392,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_BT_FOLLOWER_RUN,팔로워 비트리,SSN_BT_FOLLOWER_RUN,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+27648,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_ZACHA32_MOVING_TRAP,왕릉32부우크,SSN_ZACHA32_MOVING_TRAP,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+27904,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_ZACHA32_CUBE,왕릉32큐브,SSN_ZACHA32_CUBE,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+28160,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_STAKE_LINKER,말뚝,SSN_STAKE_LINKER,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+28416,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_MZACHA_CUBE,왕릉미션 큐브 세션,SSN_MZACHA_CUBE,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+28672,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_ROYALRUMBLE_REMAINS37,유적지대 37번 로얄럼블,SSN_ROYALRUMBLE_REMAINS37,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+28928,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_DEFENCE_REMAINS40,유적지대 40번 디펜스,SSN_DEFENCE_REMAINS40,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+29184,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_DEFENCE_REMAINS40_MON,유적지대 40번 디펜스_몬스터,SSN_DEFENCE_REMAINS40_MON,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+29440,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_COUNTDOWN_KILL,카운트 다운 킬(자살용),SSN_COUNTDOWN_KILL,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+29696,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_JOB_PYROMANCER2_1_MON,불의 정수[하이랜더 전직],SSN_JOB_PYROMANCER2_1_MON,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+29952,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_SETTIME_KILL,카운트 다운 킬(자살용),SSN_SETTIME_KILL,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+30208,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_THORN19_MQ07_VARV,두번째 가시 관문(3),SSN_THORN19_MQ07_VARV,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+30464,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_THORN20_MQ06_MAGIC,작전 방해(3),SSN_THORN20_MQ06_MAGIC,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+30720,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_GELE572_MQ_08_1,완전한 힘(1),SSN_GELE572_MQ_08_1,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+30976,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_REMAIN37_MQ05_MON,탄화 중,SSN_REMAIN37_MQ05_MON,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C
+31232,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,SSN_QUESTMON_AUTOKILL,몬스터가 주변에 PC가 없으면 자동으로 사라지기,SSN_QUESTMON_AUTOKILL,,,,,,,,,,,,,,,,,NO,NO,SObject_C,SObject_C

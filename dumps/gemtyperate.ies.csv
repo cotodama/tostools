@@ -1,0 +1,6 @@
+ClassID,Rate,ClassName
+0,0,Gem_Type_Rate_Circle
+0,0,Gem_Type_Rate_Square
+0,0,Gem_Type_Rate_Diamond
+0,0,Gem_Type_Rate_Star
+0,16384,Gem_Type_Rate_Free

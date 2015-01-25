@@ -1,0 +1,8 @@
+ClassID,WheelDir,ClassName,ServiceNation,ClientExceptionMail,ServerExceptionMail
+0,0,KOR,대한민국,ofcbj@imc.co.kr,bug_s_kor@imc.co.kr
+0,0,JPN,일본,bug_c_jpn@imc.co.kr,bug_s_jpn@imc.co.kr
+0,0,CHN,중국,bug_c_kor@imc.co.kr,bug_s_kor@imc.co.kr
+0,0,TWN,대만,bug_c_kor@imc.co.kr,bug_s_kor@imc.co.kr
+0,0,THI,태국,bug_c_kor@imc.co.kr,bug_s_kor@imc.co.kr
+0,0,SNG,싱가폴,bug_c_kor@imc.co.kr,bug_s_kor@imc.co.kr
+0,0,USA,미국,bug_c_kor@imc.co.kr,bug_s_kor@imc.co.kr

@@ -1,0 +1,6 @@
+ClassID,WikiPoint,TeachPoint,AutoGet,ClassName,TargetClassName,TargetMapName,Illust,Name,Category,TagHead,TagEnd,Scp,Desc
+20480,0,0,0,SET_Char1_1,SET_Char1_1,,,글래디에이터,SetItem,{#5090ff}{ol},{/}{/}{/},WIKIPAGE_SETITEM,
+24576,0,0,0,SET_Char1_2,SET_Char1_2,,,로만,SetItem,{#5090ff}{ol},{/}{/}{/},WIKIPAGE_SETITEM,
+28672,0,0,0,SET_Char1_3,SET_Char1_3,,,바이킹,SetItem,{#5090ff}{ol},{/}{/}{/},WIKIPAGE_SETITEM,
+32768,0,0,0,SET_Char1_4,SET_Char1_4,,,크루세이더,SetItem,{#5090ff}{ol},{/}{/}{/},WIKIPAGE_SETITEM,
+36864,0,0,0,SET_Char2_1,SET_Char2_1,,,크리스탈,SetItem,{#5090ff}{ol},{/}{/}{/},WIKIPAGE_SETITEM,

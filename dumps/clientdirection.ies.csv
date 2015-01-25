@@ -1,0 +1,5 @@
+ClassID,ClassName,Script
+0,StartManufacture,ACT_START_MANUFAC
+0,StopManufacture,ACT_STOP_MANUFAC
+0,QuestWarp,ACT_QUEST_WARP
+0,InteWarp,ACT_INTE_WARP

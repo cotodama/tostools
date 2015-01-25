@@ -1,0 +1,11 @@
+ClassID,ClassName,Name,ItemName_1,ItemName_2,ItemName_3,ItemName_4,ItemName_5,ItemName_6,ItemName_7,EffectDesc_1,EffectScp_1,EffectDesc_2,EffectScp_2,EffectDesc_3,EffectScp_3,EffectDesc_4,EffectScp_4,EffectDesc_5,EffectScp_5,EffectDesc_6,EffectScp_6,EffectDesc_7,EffectScp_7
+0,set_001,가이라스 세트,HAND02_110,FOOT02_110,LEG02_110,TOP02_110,,,,,,광역 공격 비율 ▲2 증가,SCR_set_001_PIECE2,전기 속성 공격력 ▲30 증가,SCR_set_001_PIECE3,,,,,,,,
+0,set_002,제가 세트,LEG02_111,TOP02_111,,,,,,,,방어력 ▲6 증가,SCR_set_002_PIECE2,,,,,,,,,,
+0,set_003,마기 세트,LEG02_112,TOP02_112,,,,,,,,암흑 속성 공격력 ▲30 증가,SCR_set_003_PIECE2,,,,,,,,,,
+0,set_004,주드 세트,LEG02_113,TOP02_113,,,,,,,,이동속도 ▲5 증가,SCR_set_004_PIECE2,,,,,,,,,,
+0,set_005,이스민 세트,LEG02_114,TOP02_114,,,,,,,,불 속성 저항력 ▲15 증가,SCR_set_005_PIECE2,,,,,,,,,,
+0,set_006,포라포레 세트,BRC03_103,BRC03_104,,,,,,,,신성 속성 공격력 ▲168{nl}어둠 속성 공격력 ▲168,SCR_set_006_PIECE2,,,,,,,,,,
+0,set_007,카프리선 세트,HAND02_123,FOOT02_123,LEG02_123,TOP02_123,,,,,,HP 회복 ▲16,SCR_set_007_PIECE2,,,,,,,,,,
+0,set_008,리에나 세트,FOOT02_150,TOP02_150,,,,,,,,불 속성 저항력 ▲16,SCR_set_008_PIECE2,,,,,,,,,,
+0,set_009,리에나 세트,FOOT02_151,TOP02_151,,,,,,,,불 속성 저항력 ▲16,SCR_set_009_PIECE2,,,,,,,,,,
+0,set_010,리에나 세트,FOOT02_152,TOP02_152,,,,,,,,불 속성 저항력 ▲16,SCR_set_010_PIECE2,,,,,,,,,,

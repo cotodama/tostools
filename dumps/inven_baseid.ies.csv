@@ -1,0 +1,16 @@
+ClassID,BaseID,ClassName,TreeGroup,TreeGroupCaption,TreeSSetTitle
+0,18432,Weapon,EquipGroup,장비,무기
+0,17408,Armor,EquipGroup,장비,방어구
+0,25600,SubWeapon,EquipGroup,장비,서브웨폰
+0,16896,Outer,EquipGroup,장비,코스튬
+0,20992,Accessory,EquipGroup,장비,악세서리
+0,25088,Consume,NonEquipGroup,아이템,소비
+0,47360,Gem,NonEquipGroup,아이템,젬
+0,16640,Recipe,NonEquipGroup,아이템,재료
+0,51456,Card,NonEquipGroup,아이템,카드
+0,20736,Collection,NonEquipGroup,아이템,콜렉션
+0,55552,Book,NonEquipGroup,아이템,책
+0,24832,Quest,QuestGroup,퀘스트,퀘스트
+0,59648,PetWeapon,PetEquipGroup,컴패니언장비,무기
+0,47232,PetArmor,PetEquipGroup,컴패니언장비,방어구
+0,31872,Unused,Unused,사용안함[인벤에서 안보임],사용안함[인벤에서 안보임]
