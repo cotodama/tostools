@@ -27,3 +27,8 @@ bgm.ies:
     - dataPtr: 156 
     - numRows: 128
     - numFormats: 6
+
+
+    int str int[] str[]
+
+[{ClassID ClassID 0} {ClassName ClassName 1} {Composer Composer 1} {Copyrights Copyrights 1} {FileName FileName 1} {Staff Staff 1}]

@@ -6,6 +6,7 @@ import (
 	"errors"
 	"fmt"
 	"os"
+	"strconv"
 	_ "strings"
 )
 
@@ -15,7 +16,7 @@ type IES struct {
 	Header   headerSection
 	DataInfo dataInfo
 	Nodes    []node
-	Rows     []row
+	Rows     []map[string]string
 }
 
 type headerSection struct {
@@ -40,14 +41,6 @@ type node struct {
 	NameTwo string
 	FmtType byte
 }
-
-type row struct {
-	Name    string
-	Index   uint16
-	Size    uint16
-	Content string
-}
-
 type nodes []node
 
 func OpenIES(filepath string) (*IES, error) {
@@ -204,28 +197,38 @@ func (ies *IES) parseRows() error {
 	offset := int64(ies.Header.OffsetRows)
 	ies.File.Seek(offset, 0)
 
-	for i := 0; i < int(ies.DataInfo.Rows); i++ {
+	for curRow := 0; curRow < int(ies.DataInfo.Rows); curRow++ {
+		row := make(map[string]string)
 
-		indexBuf := make([]byte, 2)
+		indexBuf := make([]byte, 4)
 		optionalBuf := make([]byte, 2)
-		intPoolBuf := make([]byte, int(ies.DataInfo.ColInt))
-		stringPoolBuf := make([]byte, int(ies.DataInfo.ColString))
 
 		ies.File.Read(indexBuf)
 		ies.File.Read(optionalBuf)
-		ies.File.Read(intPoolBuf)
-		ies.File.Read(stringPoolBuf)
 
-		fmt.Printf("%+v\n%+v\n%+v\n%+v\n\n\n",
-			indexBuf, optionalBuf, intPoolBuf, stringPoolBuf)
+		optionalStringBuf := make([]byte, readInt16(optionalBuf))
+		ies.File.Read(optionalStringBuf)
+
+		for i := 0; i < int(ies.DataInfo.ColInt); i++ {
+			intBuf := make([]byte, 4)
+			ies.File.Read(intBuf)
+
+			row[ies.Nodes[i].NameOne] = strconv.Itoa(int(readInt16(intBuf)))
+		}
+
+		for j := 0; j < int(ies.DataInfo.ColString); j++ {
+			strSizeBuf := make([]byte, 2)
+			ies.File.Read(strSizeBuf)
+
+			strBuf := make([]byte, readInt16(strSizeBuf))
+			ies.File.Read(strBuf)
+
+			row[ies.Nodes[j+int(ies.DataInfo.ColInt)].NameOne] = readXorString(strBuf, ies.Key)
+		}
+
+		ies.File.Seek(int64(ies.DataInfo.ColString), 1)
+		ies.Rows = append(ies.Rows, row)
 	}
-
-	// rows := make([]row, ies.DataInfo.Rows)
-	// curCol := 0
-
-	// for i := 0; i < int(ies.DataInfo.Rows); i++ {
-
-	// }
 
 	return nil
 }
