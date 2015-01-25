@@ -3,36 +3,52 @@ package formats
 import (
 	"bytes"
 	"encoding/binary"
+	"errors"
 	"fmt"
 	"os"
-	"strings"
+	_ "strings"
 )
 
 type IES struct {
-	File *os.File
-	Key  int
-
-	Header headerSection
-	Data   dataSection
+	File     *os.File
+	Key      byte
+	Header   headerSection
+	DataInfo dataInfo
+	Nodes    []node
+	Data     []entry
 }
 
 type headerSection struct {
-	fileName   string
-	dataOffset uint32
-	resOffset  uint32
-	eofOffset  uint32
-	resPtr     uint32
-	dataPtr    uint32
-	numRows    uint16
-	numFormats uint16
+	Name          string
+	OffsetHintA   uint32
+	OffsetHintB   uint32
+	FileSize      uint32
+	OffsetColumns uint32
+	OffsetRows    uint32
 }
 
-type dataSection struct {
-	numRows   uint16
-	unknown_3 uint16
-	unknown_0 uint16
-	order     uint16
+type dataInfo struct {
+	ValOne    uint16
+	Rows      uint16
+	Columns   uint16
+	ColInt    uint16
+	ColString uint16
 }
+
+type node struct {
+	NameOne string
+	NameTwo string
+	FmtType byte
+	Unknown byte
+}
+
+type entry struct {
+	Size  uint16
+	Key   string
+	Value string
+}
+
+type nodes []node
 
 func OpenIES(filepath string) (*IES, error) {
 	var ies IES
@@ -43,14 +59,33 @@ func OpenIES(filepath string) (*IES, error) {
 	}
 
 	ies.File = file
-	ies.Key = 0x01
+	ies.Key = byte(0x01)
 
 	return &ies, nil
 }
 
 func (ies *IES) Parse() error {
 	err := ies.parseHeader()
-	return err
+	if err != nil {
+		return err
+	}
+
+	err = ies.parseDataSection()
+	if err != nil {
+		return err
+	}
+
+	err = ies.parseFormatsSection()
+	if err != nil {
+		return err
+	}
+
+	err = ies.parseTableSection()
+	if err != nil {
+		return err
+	}
+
+	return nil
 }
 
 func (ies *IES) Decompress(path string) error {
@@ -58,83 +93,121 @@ func (ies *IES) Decompress(path string) error {
 }
 
 func (ies *IES) parseHeader() error {
-	var head headerSection
 
-	nameBuf := make([]byte, 128)
-	dataOffsetBuf := make([]byte, 4)
-	resOffsetBuf := make([]byte, 4)
-	eofOffsetBuf := make([]byte, 4)
-	numRowsBuf := make([]byte, 2)
-	numFormatsBuf := make([]byte, 2)
+	type header struct {
+		Name        [128]byte
+		Val1        uint32
+		OffsetHintA uint32
+		OffsetHintB uint32
+		FileSize    uint32
+	}
 
-	_, err := ies.File.ReadAt(nameBuf, 0)
+	var head header
+
+	headBuf := make([]byte, 144)
+	_, err := ies.File.Read(headBuf)
+	err = binary.Read(bytes.NewBuffer(headBuf), binary.LittleEndian, &head)
+
 	if err != nil {
 		return err
 	}
 
-	_, err = ies.File.ReadAt(dataOffsetBuf, 0x84)
-	if err != nil {
-		return err
+	hs := headerSection{
+		Name:          readXorString(head.Name[:], ies.Key),
+		OffsetHintA:   head.OffsetHintA,
+		OffsetHintB:   head.OffsetHintB,
+		FileSize:      head.FileSize,
+		OffsetColumns: head.FileSize - (head.OffsetHintA + head.OffsetHintB),
+		OffsetRows:    head.FileSize - head.OffsetHintB,
 	}
 
-	_, err = ies.File.ReadAt(resOffsetBuf, 0x88)
-	if err != nil {
-		return err
-	}
+	ies.Header = hs
 
-	_, err = ies.File.ReadAt(eofOffsetBuf, 0x8C)
-	if err != nil {
-		return err
-	}
-
-	_, err = ies.File.ReadAt(numRowsBuf, 0x92)
-	if err != nil {
-		return err
-	}
-
-	head.fileName = strings.TrimRight(string(nameBuf), "\x00")
-	head.dataOffset = readInt32(dataOffsetBuf)
-	head.resOffset = readInt32(resOffsetBuf)
-	head.eofOffset = readInt32(eofOffsetBuf)
-	head.resPtr = head.eofOffset - head.resOffset
-	head.dataPtr = head.resPtr - head.dataOffset
-	head.numRows = readInt16(numRowsBuf)
-
-	if head.numRows == 0x01 {
-		head.numRows = 0
-		head.numFormats = 0
-	} else {
-		_, err = ies.File.ReadAt(numFormatsBuf, 0x94)
-		if err != nil {
-			return err
-		}
-
-		head.numFormats = readInt16(numFormatsBuf)
-		head.numRows = readInt16(numRowsBuf)
-	}
-
-	fmt.Printf("%+v", head)
 	return nil
 }
 
 func (ies *IES) parseDataSection() error {
-	//ies.File.Seek(ies.Header.dataPtr, 0)
+	var d dataInfo
+
+	emptyCheckBuf := make([]byte, 2)
+	_, err := ies.File.ReadAt(emptyCheckBuf, 0x92)
+
+	if err != nil {
+		return err
+	}
+
+	if readInt16(emptyCheckBuf) == 0x01 {
+		return errors.New("not supported yet")
+	}
+
+	ies.File.Seek(144, 0)
+	dataBuf := make([]byte, 12)
+	_, err = ies.File.Read(dataBuf)
+
+	if err != nil {
+		return err
+	}
+
+	err = binary.Read(bytes.NewBuffer(dataBuf), binary.LittleEndian, &d)
+	if err != nil {
+		return err
+	}
+
+	ies.DataInfo = d
+
 	return nil
 
+}
+
+func (ies *IES) parseFormatsSection() error {
+	type fileNode struct {
+		NameOne [64]byte
+		NameTwo [64]byte
+		FmtType byte
+		Unknown byte
+	}
+	var nodes []node
+
+	offset := int64(ies.Header.OffsetColumns)
+
+	_, err := ies.File.Seek(offset, 0)
+	if err != nil {
+		return err
+	}
+
+	for i := 0; i < int(ies.DataInfo.Columns); i++ {
+		var tmp fileNode
+
+		buf := make([]byte, 136)
+		_, err := ies.File.Read(buf)
+
+		err = binary.Read(bytes.NewBuffer(buf), binary.LittleEndian, &tmp)
+		if err != nil {
+			return err
+		}
+
+		n := node{
+			NameOne: readXorString(tmp.NameOne[:], ies.Key),
+			NameTwo: readXorString(tmp.NameTwo[:], ies.Key),
+			FmtType: tmp.FmtType,
+			Unknown: tmp.Unknown,
+		}
+
+		nodes = append(nodes, n)
+
+	}
+
+	ies.Nodes = nodes
+
+	return nil
 }
 
 func (ies *IES) parseTableSection() error {
+	offset := int64(ies.Header.OffsetRows) - 2
+	ies.File.Seek(offset, 0)
+
+	for i := 0; i < int(ies.DataInfo.Rows); i++ {
+	}
+
 	return nil
-}
-
-func readInt32(data []byte) (r uint32) {
-	buf := bytes.NewBuffer(data)
-	binary.Read(buf, binary.LittleEndian, &r)
-	return
-}
-
-func readInt16(data []byte) (r uint16) {
-	buf := bytes.NewBuffer(data)
-	binary.Read(buf, binary.LittleEndian, &r)
-	return
 }

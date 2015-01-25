@@ -1,6 +1,6 @@
 // ies
 
-char fName[128]; // datatable name
+char fName[64]; // datatable name
 Printf("Table: %s\n\n", fName);
 
 /////////////////////////////////////////////////////////////
@@ -88,6 +88,12 @@ for(c=0; c<Columns; c++) // column headers
   Printf(" %s:\t(%i) %s\n", ((ColType == 1) ? "[Str]" : "[Num]" ), un__NEW, DecString(Header1.encString));
 
   if(ColType == 1) totStrings++; // count number of expected string columns
+}
+
+if(totStrings != ColString)
+{
+  Printf("ERROR Unexpected number of string columns");
+  return -1;
 }
 
 short xx;
